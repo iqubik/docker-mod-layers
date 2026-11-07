@@ -1,0 +1,2442 @@
+[
+  {
+    "key": "4f6b87dd91f2d44d",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/8.1-c2287989/initrd",
+    "labels": [
+      "BackBox 8.1"
+    ],
+    "menus": [
+      "live-backbox.ipxe"
+    ],
+    "source_sha256": "70b7c6b09ce976c271452c2c7a04611c50056243f96551066a3bd45062c2c384",
+    "compression": "zstd",
+    "mount_function": "do_urlmount",
+    "fix_sha256": "b17841dd3eb4955291f387a33054bc01a78ef87706b72dbcf9a58f41d1ae2047",
+    "patcher_sha256": "97e631a24cd6915705268526b341bdc36ff9be6c651bafc6add27e7674aa27cf",
+    "initrd_sha256": "08c5b296c2228fff9337d767c7e53d14a798b51f37f3d006c9c7ad87d43bb089",
+    "initrd_bytes": 109492427,
+    "records": 3997,
+    "unchanged_records": 3996,
+    "casper_original_sha256": "e4655c495745a06aa60668588a1e85ec970e3cc1fb05a13e7cc7d77c83b567a8",
+    "casper_fixed_sha256": "9933a98522c760cca2e406f3ece070fabb4dec0fdbc7048b66b8b33b1fa16ea4",
+    "command_paths": {
+      "awk": [
+        "usr/bin/awk"
+      ],
+      "tail": [
+        "usr/bin/tail"
+      ],
+      "wc": [
+        "usr/bin/wc"
+      ],
+      "tr": [
+        "usr/bin/tr"
+      ],
+      "mount": [
+        "usr/bin/mount"
+      ],
+      "mkdir": [
+        "usr/bin/mkdir"
+      ],
+      "umount": [
+        "usr/bin/umount"
+      ],
+      "rm": [
+        "usr/bin/rm"
+      ],
+      "sh": [
+        "usr/bin/sh"
+      ],
+      "curl": [
+        "usr/bin/curl"
+      ]
+    }
+  },
+  {
+    "key": "d49181596a80188d",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/7.0.0-b10d29eb/initrd",
+    "labels": [
+      "Bodhi 7.0.0 apppack"
+    ],
+    "menus": [
+      "live-bodhi.ipxe"
+    ],
+    "source_sha256": "023df9343cf882cc7b8b5a8d2324e6de08d434df2e56d61355837143d37cfc85",
+    "compression": "zstd",
+    "mount_function": "do_urlmount",
+    "fix_sha256": "b17841dd3eb4955291f387a33054bc01a78ef87706b72dbcf9a58f41d1ae2047",
+    "patcher_sha256": "97e631a24cd6915705268526b341bdc36ff9be6c651bafc6add27e7674aa27cf",
+    "initrd_sha256": "aaa8ec2a568934e0a762b938f9852d5ce3782e5db0c4bcfa5d6fe47a332177a3",
+    "initrd_bytes": 80050167,
+    "records": 3412,
+    "unchanged_records": 3411,
+    "casper_original_sha256": "e4655c495745a06aa60668588a1e85ec970e3cc1fb05a13e7cc7d77c83b567a8",
+    "casper_fixed_sha256": "9933a98522c760cca2e406f3ece070fabb4dec0fdbc7048b66b8b33b1fa16ea4",
+    "command_paths": {
+      "awk": [
+        "usr/bin/awk"
+      ],
+      "tail": [
+        "usr/bin/tail"
+      ],
+      "wc": [
+        "usr/bin/wc"
+      ],
+      "tr": [
+        "usr/bin/tr"
+      ],
+      "mount": [
+        "usr/bin/mount"
+      ],
+      "mkdir": [
+        "usr/bin/mkdir"
+      ],
+      "umount": [
+        "usr/bin/umount"
+      ],
+      "rm": [
+        "usr/bin/rm"
+      ],
+      "sh": [
+        "usr/bin/sh"
+      ],
+      "curl": [
+        "usr/bin/curl"
+      ]
+    }
+  },
+  {
+    "key": "3c91e687330d96c7",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/7.0.0-0b77b753/initrd",
+    "labels": [
+      "Bodhi 7.0.0 standard"
+    ],
+    "menus": [
+      "live-bodhi.ipxe"
+    ],
+    "source_sha256": "b12bdd35d732c9bad1a5307e52f021c8782f68b8a6353d35601f2ff740ec3b10",
+    "compression": "zstd",
+    "mount_function": "do_urlmount",
+    "fix_sha256": "b17841dd3eb4955291f387a33054bc01a78ef87706b72dbcf9a58f41d1ae2047",
+    "patcher_sha256": "97e631a24cd6915705268526b341bdc36ff9be6c651bafc6add27e7674aa27cf",
+    "initrd_sha256": "be17b1e5528ec30b3e0cd02f365248606523a8a0aa89c9c22661a98a8835b03c",
+    "initrd_bytes": 124971363,
+    "records": 4029,
+    "unchanged_records": 4028,
+    "casper_original_sha256": "e4655c495745a06aa60668588a1e85ec970e3cc1fb05a13e7cc7d77c83b567a8",
+    "casper_fixed_sha256": "9933a98522c760cca2e406f3ece070fabb4dec0fdbc7048b66b8b33b1fa16ea4",
+    "command_paths": {
+      "awk": [
+        "usr/bin/awk"
+      ],
+      "tail": [
+        "usr/bin/tail"
+      ],
+      "wc": [
+        "usr/bin/wc"
+      ],
+      "tr": [
+        "usr/bin/tr"
+      ],
+      "mount": [
+        "usr/bin/mount"
+      ],
+      "mkdir": [
+        "usr/bin/mkdir"
+      ],
+      "umount": [
+        "usr/bin/umount"
+      ],
+      "rm": [
+        "usr/bin/rm"
+      ],
+      "sh": [
+        "usr/bin/sh"
+      ],
+      "curl": [
+        "usr/bin/curl"
+      ]
+    }
+  },
+  {
+    "key": "d829ee7330a91be3",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/6-3e90a5ea/initrd",
+    "labels": [
+      "elementary OS 6"
+    ],
+    "menus": [
+      "live-elementary.ipxe"
+    ],
+    "source_sha256": "a08c4be3d4f71302553f9802a1a58dae204496b7915bf7355b8ed01545a2dfe1",
+    "compression": "xz-crc32",
+    "mount_function": "do_urlmount",
+    "fix_sha256": "b17841dd3eb4955291f387a33054bc01a78ef87706b72dbcf9a58f41d1ae2047",
+    "patcher_sha256": "97e631a24cd6915705268526b341bdc36ff9be6c651bafc6add27e7674aa27cf",
+    "initrd_sha256": "a85d0b06fdf1a186c7846b069fb2ba8b75d2c1fa247773cc1382358874fe468e",
+    "initrd_bytes": 60035984,
+    "records": 3625,
+    "unchanged_records": 3624,
+    "casper_original_sha256": "4bd5b74f8d15f98f4ba50513e1b81734648109ee9b7c7826be1b839e2062eb04",
+    "casper_fixed_sha256": "a2327dd5f46742bfd88b7ab800e99e962fc3c808e288756c0438da34166e1a34",
+    "command_paths": {
+      "awk": [
+        "usr/bin/awk"
+      ],
+      "tail": [
+        "usr/bin/tail"
+      ],
+      "wc": [
+        "usr/bin/wc"
+      ],
+      "tr": [
+        "usr/bin/tr"
+      ],
+      "mount": [
+        "usr/bin/mount"
+      ],
+      "mkdir": [
+        "usr/bin/mkdir"
+      ],
+      "umount": [
+        "usr/bin/umount"
+      ],
+      "rm": [
+        "usr/bin/rm"
+      ],
+      "sh": [
+        "usr/bin/sh"
+      ],
+      "curl": [
+        "usr/bin/curl"
+      ]
+    }
+  },
+  {
+    "key": "014f941a1276f1aa",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/7-c98a385c/initrd",
+    "labels": [
+      "elementary OS 7"
+    ],
+    "menus": [
+      "live-elementary.ipxe"
+    ],
+    "source_sha256": "f1cfe3869d2dbc72fde64b17ff755c6156e0afe0c1ea7c311c69330273b48afd",
+    "compression": "zstd",
+    "mount_function": "do_urlmount",
+    "fix_sha256": "b17841dd3eb4955291f387a33054bc01a78ef87706b72dbcf9a58f41d1ae2047",
+    "patcher_sha256": "97e631a24cd6915705268526b341bdc36ff9be6c651bafc6add27e7674aa27cf",
+    "initrd_sha256": "f0da68d268fba469cd30845def86185e1c811c5028aabaf09e929f7ab7753f6b",
+    "initrd_bytes": 104770865,
+    "records": 3900,
+    "unchanged_records": 3899,
+    "casper_original_sha256": "e4655c495745a06aa60668588a1e85ec970e3cc1fb05a13e7cc7d77c83b567a8",
+    "casper_fixed_sha256": "9933a98522c760cca2e406f3ece070fabb4dec0fdbc7048b66b8b33b1fa16ea4",
+    "command_paths": {
+      "awk": [
+        "usr/bin/awk"
+      ],
+      "tail": [
+        "usr/bin/tail"
+      ],
+      "wc": [
+        "usr/bin/wc"
+      ],
+      "tr": [
+        "usr/bin/tr"
+      ],
+      "mount": [
+        "usr/bin/mount"
+      ],
+      "mkdir": [
+        "usr/bin/mkdir"
+      ],
+      "umount": [
+        "usr/bin/umount"
+      ],
+      "rm": [
+        "usr/bin/rm"
+      ],
+      "sh": [
+        "usr/bin/sh"
+      ],
+      "curl": [
+        "usr/bin/curl"
+      ]
+    }
+  },
+  {
+    "key": "b18f90e77fe6d948",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/6.2-2a23039c/initrd",
+    "labels": [
+      "Kodachi 6.2"
+    ],
+    "menus": [
+      "live-kodachi.ipxe"
+    ],
+    "source_sha256": "4e1c8de3060eef770f72fc4c8ea2185cfb77dd9c68bbd2d7c98c6a1e4a5a64ba",
+    "compression": "gzip",
+    "mount_function": "do_httpmount",
+    "fix_sha256": "b17841dd3eb4955291f387a33054bc01a78ef87706b72dbcf9a58f41d1ae2047",
+    "patcher_sha256": "97e631a24cd6915705268526b341bdc36ff9be6c651bafc6add27e7674aa27cf",
+    "initrd_sha256": "96cd46728dbdf55860874830fec1d083e4ecefc6ccd1043c390c58cb55d7e9c9",
+    "initrd_bytes": 72531869,
+    "records": 3026,
+    "unchanged_records": 3025,
+    "casper_original_sha256": "2ebfe45816132ecf986091c33b71b06adc1ecb412a46aff1f81606829dd41592",
+    "casper_fixed_sha256": "0fb1501c149de9eb4d843bcb3667e3ebb8b77bd86e6f69f65ee602369691b69d",
+    "command_paths": {
+      "awk": [
+        "bin/awk"
+      ],
+      "tail": [
+        "bin/tail"
+      ],
+      "wc": [
+        "bin/wc"
+      ],
+      "tr": [
+        "bin/tr"
+      ],
+      "mount": [
+        "bin/mount"
+      ],
+      "mkdir": [
+        "bin/mkdir"
+      ],
+      "umount": [
+        "bin/umount"
+      ],
+      "rm": [
+        "bin/rm"
+      ],
+      "sh": [
+        "bin/sh"
+      ],
+      "curl": [
+        "bin/curl"
+      ]
+    }
+  },
+  {
+    "key": "0ba50ba16debeaa0",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/7.6-5b1ead62/initrd",
+    "labels": [
+      "Kodachi 7.6"
+    ],
+    "menus": [
+      "live-kodachi.ipxe"
+    ],
+    "source_sha256": "0d9359200949455f1f492d06f2daed1809e1c3c9effbf3ed407723991ebc08cd",
+    "compression": "gzip",
+    "mount_function": "do_httpmount",
+    "fix_sha256": "b17841dd3eb4955291f387a33054bc01a78ef87706b72dbcf9a58f41d1ae2047",
+    "patcher_sha256": "97e631a24cd6915705268526b341bdc36ff9be6c651bafc6add27e7674aa27cf",
+    "initrd_sha256": "3bde12fe3df9434dc332a316cef00bec5546e5983319499bb397f0b51370c10d",
+    "initrd_bytes": 85170086,
+    "records": 3351,
+    "unchanged_records": 3350,
+    "casper_original_sha256": "2ebfe45816132ecf986091c33b71b06adc1ecb412a46aff1f81606829dd41592",
+    "casper_fixed_sha256": "0fb1501c149de9eb4d843bcb3667e3ebb8b77bd86e6f69f65ee602369691b69d",
+    "command_paths": {
+      "awk": [
+        "bin/awk"
+      ],
+      "tail": [
+        "bin/tail"
+      ],
+      "wc": [
+        "bin/wc"
+      ],
+      "tr": [
+        "bin/tr"
+      ],
+      "mount": [
+        "bin/mount"
+      ],
+      "mkdir": [
+        "bin/mkdir"
+      ],
+      "umount": [
+        "bin/umount"
+      ],
+      "rm": [
+        "bin/rm"
+      ],
+      "sh": [
+        "bin/sh"
+      ],
+      "curl": [
+        "bin/curl"
+      ]
+    }
+  },
+  {
+    "key": "eaba1ca1266f79ce",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/8.2-625e11fa/initrd",
+    "labels": [
+      "Kodachi 8.2"
+    ],
+    "menus": [
+      "live-kodachi.ipxe"
+    ],
+    "source_sha256": "301bbd21f10f8ca8450ea0bb1a226896caceddc779c507093e1d867732de59ec",
+    "compression": "gzip",
+    "mount_function": "do_httpmount",
+    "fix_sha256": "b17841dd3eb4955291f387a33054bc01a78ef87706b72dbcf9a58f41d1ae2047",
+    "patcher_sha256": "97e631a24cd6915705268526b341bdc36ff9be6c651bafc6add27e7674aa27cf",
+    "initrd_sha256": "270651b38f92f4a42b3a460a8da202fcccb08f0064c1bf75e080acbc4cc48f5d",
+    "initrd_bytes": 83548672,
+    "records": 3349,
+    "unchanged_records": 3348,
+    "casper_original_sha256": "2ebfe45816132ecf986091c33b71b06adc1ecb412a46aff1f81606829dd41592",
+    "casper_fixed_sha256": "0fb1501c149de9eb4d843bcb3667e3ebb8b77bd86e6f69f65ee602369691b69d",
+    "command_paths": {
+      "awk": [
+        "bin/awk"
+      ],
+      "tail": [
+        "bin/tail"
+      ],
+      "wc": [
+        "bin/wc"
+      ],
+      "tr": [
+        "bin/tr"
+      ],
+      "mount": [
+        "bin/mount"
+      ],
+      "mkdir": [
+        "bin/mkdir"
+      ],
+      "umount": [
+        "bin/umount"
+      ],
+      "rm": [
+        "bin/rm"
+      ],
+      "sh": [
+        "bin/sh"
+      ],
+      "curl": [
+        "bin/curl"
+      ]
+    }
+  },
+  {
+    "key": "d06c0cdb14d605c3",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/5.8-75cb937c/initrd",
+    "labels": [
+      "Linux Lite 5.8 (в меню обозначен как 6)"
+    ],
+    "menus": [
+      "live-lite.ipxe"
+    ],
+    "source_sha256": "8a3c0810214868fe8faaf103c2bfbc12651953072dae596b7b9e27322c42130d",
+    "compression": "xz-crc32",
+    "mount_function": "do_urlmount",
+    "fix_sha256": "b17841dd3eb4955291f387a33054bc01a78ef87706b72dbcf9a58f41d1ae2047",
+    "patcher_sha256": "97e631a24cd6915705268526b341bdc36ff9be6c651bafc6add27e7674aa27cf",
+    "initrd_sha256": "0cc44f8485910dc12dadca08e5b20aee829686f20ac1e1d239870934db980f4c",
+    "initrd_bytes": 59728276,
+    "records": 3320,
+    "unchanged_records": 3319,
+    "casper_original_sha256": "e186850eca04134ec8bd352ced89afd30af4cfae7646135046f07a5d53e3a17f",
+    "casper_fixed_sha256": "7df623cc13bc5f93e2a76a4fe5f7cdb02ecf88fab55c56ffd11b1c4fc9970553",
+    "command_paths": {
+      "awk": [
+        "usr/bin/awk"
+      ],
+      "tail": [
+        "usr/bin/tail"
+      ],
+      "wc": [
+        "usr/bin/wc"
+      ],
+      "tr": [
+        "usr/bin/tr"
+      ],
+      "mount": [
+        "usr/bin/mount"
+      ],
+      "mkdir": [
+        "usr/bin/mkdir"
+      ],
+      "umount": [
+        "usr/bin/umount"
+      ],
+      "rm": [
+        "usr/bin/rm"
+      ],
+      "sh": [
+        "usr/bin/sh"
+      ],
+      "curl": [
+        "usr/bin/curl"
+      ]
+    }
+  },
+  {
+    "key": "004f9fb219db5951",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/18.04.3-83291c4b/initrd",
+    "labels": [
+      "LXLE 18.04.3"
+    ],
+    "menus": [
+      "live-lxle.ipxe"
+    ],
+    "source_sha256": "684a720916a07c4f5ca1d2aa430e147abdc25b664024d93a186bb996cc528c21",
+    "compression": "gzip",
+    "mount_function": "do_httpmount",
+    "fix_sha256": "b17841dd3eb4955291f387a33054bc01a78ef87706b72dbcf9a58f41d1ae2047",
+    "patcher_sha256": "97e631a24cd6915705268526b341bdc36ff9be6c651bafc6add27e7674aa27cf",
+    "initrd_sha256": "1db33dc8005c442faa3acfb3b35ac6504b88ced1d9b923ea8012c0467ee03112",
+    "initrd_bytes": 60916751,
+    "records": 2585,
+    "unchanged_records": 2584,
+    "casper_original_sha256": "2ebfe45816132ecf986091c33b71b06adc1ecb412a46aff1f81606829dd41592",
+    "casper_fixed_sha256": "0fb1501c149de9eb4d843bcb3667e3ebb8b77bd86e6f69f65ee602369691b69d",
+    "command_paths": {
+      "awk": [
+        "bin/awk"
+      ],
+      "tail": [
+        "bin/tail"
+      ],
+      "wc": [
+        "bin/wc"
+      ],
+      "tr": [
+        "bin/tr"
+      ],
+      "mount": [
+        "bin/mount"
+      ],
+      "mkdir": [
+        "bin/mkdir"
+      ],
+      "umount": [
+        "bin/umount"
+      ],
+      "rm": [
+        "bin/rm"
+      ],
+      "sh": [
+        "bin/sh"
+      ],
+      "curl": [
+        "bin/curl"
+      ]
+    }
+  },
+  {
+    "key": "42f2d451bdde2a8e",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/20.3-8b9bc9d4/initrd",
+    "labels": [
+      "Mint 20.3 Cinnamon"
+    ],
+    "menus": [
+      "live-mint.ipxe"
+    ],
+    "source_sha256": "e7e4df3ce9c4adc0fa38fb9790640bd6c78e7b2fd560facf1895051382f7fbbe",
+    "compression": "xz-crc32",
+    "mount_function": "do_urlmount",
+    "fix_sha256": "b17841dd3eb4955291f387a33054bc01a78ef87706b72dbcf9a58f41d1ae2047",
+    "patcher_sha256": "97e631a24cd6915705268526b341bdc36ff9be6c651bafc6add27e7674aa27cf",
+    "initrd_sha256": "0c94d8e951a0c94346851f08cb0f5f242ec1c050d92764012ea2f0ed639d6fd7",
+    "initrd_bytes": 64111772,
+    "records": 3695,
+    "unchanged_records": 3694,
+    "casper_original_sha256": "cccb4c1ae0d57e460ee7982848b304d6205843b60b9703e763be3c9c30173e8a",
+    "casper_fixed_sha256": "a2327dd5f46742bfd88b7ab800e99e962fc3c808e288756c0438da34166e1a34",
+    "command_paths": {
+      "awk": [
+        "usr/bin/awk"
+      ],
+      "tail": [
+        "usr/bin/tail"
+      ],
+      "wc": [
+        "usr/bin/wc"
+      ],
+      "tr": [
+        "usr/bin/tr"
+      ],
+      "mount": [
+        "usr/bin/mount"
+      ],
+      "mkdir": [
+        "usr/bin/mkdir"
+      ],
+      "umount": [
+        "usr/bin/umount"
+      ],
+      "rm": [
+        "usr/bin/rm"
+      ],
+      "sh": [
+        "usr/bin/sh"
+      ],
+      "curl": [
+        "usr/bin/curl"
+      ]
+    }
+  },
+  {
+    "key": "065861511001eb10",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/20.3-1308999e/initrd",
+    "labels": [
+      "Mint 20.3 Mate"
+    ],
+    "menus": [
+      "live-mint.ipxe"
+    ],
+    "source_sha256": "da671a55fa59e2416e90b894f7dafe20cafacb0ad5b1d0779be76630c05e3d9b",
+    "compression": "xz-crc32",
+    "mount_function": "do_urlmount",
+    "fix_sha256": "b17841dd3eb4955291f387a33054bc01a78ef87706b72dbcf9a58f41d1ae2047",
+    "patcher_sha256": "97e631a24cd6915705268526b341bdc36ff9be6c651bafc6add27e7674aa27cf",
+    "initrd_sha256": "01f2d8ee26b7f90af79dfb1e72193f7612bdb015656f94155334637f6a9ef7e6",
+    "initrd_bytes": 64111672,
+    "records": 3696,
+    "unchanged_records": 3695,
+    "casper_original_sha256": "cccb4c1ae0d57e460ee7982848b304d6205843b60b9703e763be3c9c30173e8a",
+    "casper_fixed_sha256": "a2327dd5f46742bfd88b7ab800e99e962fc3c808e288756c0438da34166e1a34",
+    "command_paths": {
+      "awk": [
+        "usr/bin/awk"
+      ],
+      "tail": [
+        "usr/bin/tail"
+      ],
+      "wc": [
+        "usr/bin/wc"
+      ],
+      "tr": [
+        "usr/bin/tr"
+      ],
+      "mount": [
+        "usr/bin/mount"
+      ],
+      "mkdir": [
+        "usr/bin/mkdir"
+      ],
+      "umount": [
+        "usr/bin/umount"
+      ],
+      "rm": [
+        "usr/bin/rm"
+      ],
+      "sh": [
+        "usr/bin/sh"
+      ],
+      "curl": [
+        "usr/bin/curl"
+      ]
+    }
+  },
+  {
+    "key": "41cf07f65a28b899",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/20.3-68ef39b2/initrd",
+    "labels": [
+      "Mint 20.3 Xfce"
+    ],
+    "menus": [
+      "live-mint.ipxe"
+    ],
+    "source_sha256": "7a21aec23181c80bcedb33f371f62bb601107fbeca49fb7eb747f2e24d1bd2e7",
+    "compression": "xz-crc32",
+    "mount_function": "do_urlmount",
+    "fix_sha256": "b17841dd3eb4955291f387a33054bc01a78ef87706b72dbcf9a58f41d1ae2047",
+    "patcher_sha256": "97e631a24cd6915705268526b341bdc36ff9be6c651bafc6add27e7674aa27cf",
+    "initrd_sha256": "14f07519bc9171fea4099761862b70d0d771153913404b301115d44d9f62a8ea",
+    "initrd_bytes": 64111732,
+    "records": 3695,
+    "unchanged_records": 3694,
+    "casper_original_sha256": "cccb4c1ae0d57e460ee7982848b304d6205843b60b9703e763be3c9c30173e8a",
+    "casper_fixed_sha256": "a2327dd5f46742bfd88b7ab800e99e962fc3c808e288756c0438da34166e1a34",
+    "command_paths": {
+      "awk": [
+        "usr/bin/awk"
+      ],
+      "tail": [
+        "usr/bin/tail"
+      ],
+      "wc": [
+        "usr/bin/wc"
+      ],
+      "tr": [
+        "usr/bin/tr"
+      ],
+      "mount": [
+        "usr/bin/mount"
+      ],
+      "mkdir": [
+        "usr/bin/mkdir"
+      ],
+      "umount": [
+        "usr/bin/umount"
+      ],
+      "rm": [
+        "usr/bin/rm"
+      ],
+      "sh": [
+        "usr/bin/sh"
+      ],
+      "curl": [
+        "usr/bin/curl"
+      ]
+    }
+  },
+  {
+    "key": "403e14b1b7e05abd",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/21-eec307d9/initrd",
+    "labels": [
+      "Mint 21 Cinnamon"
+    ],
+    "menus": [
+      "live-mint.ipxe"
+    ],
+    "source_sha256": "11ed2875834337cdf3ee3deea4d9d3d2538d958b10ab864089af8c37358bc61f",
+    "compression": "zstd",
+    "mount_function": "do_urlmount",
+    "fix_sha256": "b17841dd3eb4955291f387a33054bc01a78ef87706b72dbcf9a58f41d1ae2047",
+    "patcher_sha256": "97e631a24cd6915705268526b341bdc36ff9be6c651bafc6add27e7674aa27cf",
+    "initrd_sha256": "12d9b229c01ff858cf87ee92bbbebe4f7582595770db5b3cf30a39760526b1ce",
+    "initrd_bytes": 108566037,
+    "records": 4375,
+    "unchanged_records": 4374,
+    "casper_original_sha256": "e4655c495745a06aa60668588a1e85ec970e3cc1fb05a13e7cc7d77c83b567a8",
+    "casper_fixed_sha256": "9933a98522c760cca2e406f3ece070fabb4dec0fdbc7048b66b8b33b1fa16ea4",
+    "command_paths": {
+      "awk": [
+        "usr/bin/awk"
+      ],
+      "tail": [
+        "usr/bin/tail"
+      ],
+      "wc": [
+        "usr/bin/wc"
+      ],
+      "tr": [
+        "usr/bin/tr"
+      ],
+      "mount": [
+        "usr/bin/mount"
+      ],
+      "mkdir": [
+        "usr/bin/mkdir"
+      ],
+      "umount": [
+        "usr/bin/umount"
+      ],
+      "rm": [
+        "usr/bin/rm"
+      ],
+      "sh": [
+        "usr/bin/sh"
+      ],
+      "curl": [
+        "usr/bin/curl"
+      ]
+    }
+  },
+  {
+    "key": "aa1a08bb16a4e874",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/21-cab2fe58/initrd",
+    "labels": [
+      "Mint 21 Mate"
+    ],
+    "menus": [
+      "live-mint.ipxe"
+    ],
+    "source_sha256": "4f9915392917649f0ea55899addf0e014ab7e2d264d60235329842a4c3cc890c",
+    "compression": "zstd",
+    "mount_function": "do_urlmount",
+    "fix_sha256": "b17841dd3eb4955291f387a33054bc01a78ef87706b72dbcf9a58f41d1ae2047",
+    "patcher_sha256": "97e631a24cd6915705268526b341bdc36ff9be6c651bafc6add27e7674aa27cf",
+    "initrd_sha256": "010ecccc9379653e2092db2381472c4636b0a99f262be7d8a5db4c8de647a2ef",
+    "initrd_bytes": 109619696,
+    "records": 4375,
+    "unchanged_records": 4374,
+    "casper_original_sha256": "e4655c495745a06aa60668588a1e85ec970e3cc1fb05a13e7cc7d77c83b567a8",
+    "casper_fixed_sha256": "9933a98522c760cca2e406f3ece070fabb4dec0fdbc7048b66b8b33b1fa16ea4",
+    "command_paths": {
+      "awk": [
+        "usr/bin/awk"
+      ],
+      "tail": [
+        "usr/bin/tail"
+      ],
+      "wc": [
+        "usr/bin/wc"
+      ],
+      "tr": [
+        "usr/bin/tr"
+      ],
+      "mount": [
+        "usr/bin/mount"
+      ],
+      "mkdir": [
+        "usr/bin/mkdir"
+      ],
+      "umount": [
+        "usr/bin/umount"
+      ],
+      "rm": [
+        "usr/bin/rm"
+      ],
+      "sh": [
+        "usr/bin/sh"
+      ],
+      "curl": [
+        "usr/bin/curl"
+      ]
+    }
+  },
+  {
+    "key": "e203ede256d1d8f4",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/21-661c5b6f/initrd",
+    "labels": [
+      "Mint 21 Xfce"
+    ],
+    "menus": [
+      "live-mint.ipxe"
+    ],
+    "source_sha256": "f30e2437c6f8a40c94145b843491355df206b6d791d5c562d268f10894fcdfb4",
+    "compression": "zstd",
+    "mount_function": "do_urlmount",
+    "fix_sha256": "b17841dd3eb4955291f387a33054bc01a78ef87706b72dbcf9a58f41d1ae2047",
+    "patcher_sha256": "97e631a24cd6915705268526b341bdc36ff9be6c651bafc6add27e7674aa27cf",
+    "initrd_sha256": "7fcd1201b4b8380547dadd33699e633f7ecbebf89de3e73beb00ffa9cd346f66",
+    "initrd_bytes": 108569046,
+    "records": 4375,
+    "unchanged_records": 4374,
+    "casper_original_sha256": "e4655c495745a06aa60668588a1e85ec970e3cc1fb05a13e7cc7d77c83b567a8",
+    "casper_fixed_sha256": "9933a98522c760cca2e406f3ece070fabb4dec0fdbc7048b66b8b33b1fa16ea4",
+    "command_paths": {
+      "awk": [
+        "usr/bin/awk"
+      ],
+      "tail": [
+        "usr/bin/tail"
+      ],
+      "wc": [
+        "usr/bin/wc"
+      ],
+      "tr": [
+        "usr/bin/tr"
+      ],
+      "mount": [
+        "usr/bin/mount"
+      ],
+      "mkdir": [
+        "usr/bin/mkdir"
+      ],
+      "umount": [
+        "usr/bin/umount"
+      ],
+      "rm": [
+        "usr/bin/rm"
+      ],
+      "sh": [
+        "usr/bin/sh"
+      ],
+      "curl": [
+        "usr/bin/curl"
+      ]
+    }
+  },
+  {
+    "key": "12b35d4ddd23062e",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/22-2b593d38/initrd",
+    "labels": [
+      "Mint 22 Cinnamon"
+    ],
+    "menus": [
+      "live-mint.ipxe"
+    ],
+    "source_sha256": "d5baedbdaeb6c7e6594cf888a2ae0e1cda2209790028a85a20cd17ecceb1cf51",
+    "compression": "zstd",
+    "mount_function": "do_urlmount",
+    "fix_sha256": "b17841dd3eb4955291f387a33054bc01a78ef87706b72dbcf9a58f41d1ae2047",
+    "patcher_sha256": "97e631a24cd6915705268526b341bdc36ff9be6c651bafc6add27e7674aa27cf",
+    "initrd_sha256": "1d25cbde21fcf3b0c0befae841402f0db2df0103d181237003c1d4d2acbc3e41",
+    "initrd_bytes": 72973892,
+    "records": 2192,
+    "unchanged_records": 2191,
+    "casper_original_sha256": "137d02af9e7550525434541b172ea6cff3c241a6c678ca1595cc5ff40adb6de2",
+    "casper_fixed_sha256": "44e8e74b4e6d45a15b00b743b015183039ed9cca7582611387445d09bb43a1d5",
+    "command_paths": {
+      "awk": [
+        "usr/bin/awk"
+      ],
+      "tail": [
+        "usr/bin/tail"
+      ],
+      "wc": [
+        "usr/bin/wc"
+      ],
+      "tr": [
+        "usr/bin/tr"
+      ],
+      "mount": [
+        "usr/bin/mount"
+      ],
+      "mkdir": [
+        "usr/bin/mkdir"
+      ],
+      "umount": [
+        "usr/bin/umount"
+      ],
+      "rm": [
+        "usr/bin/rm"
+      ],
+      "sh": [
+        "usr/bin/sh"
+      ],
+      "curl": [
+        "usr/bin/curl"
+      ]
+    }
+  },
+  {
+    "key": "2466c26b24b281d5",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/22-487af4d4/initrd",
+    "labels": [
+      "Mint 22 Mate"
+    ],
+    "menus": [
+      "live-mint.ipxe"
+    ],
+    "source_sha256": "9a326f31d368fc98d4b1b4ed5e40350d5afef6a4ee7efd13ed590248f568cc67",
+    "compression": "zstd",
+    "mount_function": "do_urlmount",
+    "fix_sha256": "b17841dd3eb4955291f387a33054bc01a78ef87706b72dbcf9a58f41d1ae2047",
+    "patcher_sha256": "97e631a24cd6915705268526b341bdc36ff9be6c651bafc6add27e7674aa27cf",
+    "initrd_sha256": "9e9a2013cc8f9d352e2e36148e23aa865161ba5c0dee39390df3b6b652ef1369",
+    "initrd_bytes": 72918825,
+    "records": 2192,
+    "unchanged_records": 2191,
+    "casper_original_sha256": "137d02af9e7550525434541b172ea6cff3c241a6c678ca1595cc5ff40adb6de2",
+    "casper_fixed_sha256": "44e8e74b4e6d45a15b00b743b015183039ed9cca7582611387445d09bb43a1d5",
+    "command_paths": {
+      "awk": [
+        "usr/bin/awk"
+      ],
+      "tail": [
+        "usr/bin/tail"
+      ],
+      "wc": [
+        "usr/bin/wc"
+      ],
+      "tr": [
+        "usr/bin/tr"
+      ],
+      "mount": [
+        "usr/bin/mount"
+      ],
+      "mkdir": [
+        "usr/bin/mkdir"
+      ],
+      "umount": [
+        "usr/bin/umount"
+      ],
+      "rm": [
+        "usr/bin/rm"
+      ],
+      "sh": [
+        "usr/bin/sh"
+      ],
+      "curl": [
+        "usr/bin/curl"
+      ]
+    }
+  },
+  {
+    "key": "d3925591cdf428e6",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/22-8770cb66/initrd",
+    "labels": [
+      "Mint 22 Xfce"
+    ],
+    "menus": [
+      "live-mint.ipxe"
+    ],
+    "source_sha256": "5b6bf8dfc9b06e0dc534fda6816d5cd57d47c20b51a8293860101e0bdf665b89",
+    "compression": "zstd",
+    "mount_function": "do_urlmount",
+    "fix_sha256": "b17841dd3eb4955291f387a33054bc01a78ef87706b72dbcf9a58f41d1ae2047",
+    "patcher_sha256": "97e631a24cd6915705268526b341bdc36ff9be6c651bafc6add27e7674aa27cf",
+    "initrd_sha256": "0f20d9fbc88efe16aa652601dfde09b8e32125da3acf11aaa5d6eab232db4837",
+    "initrd_bytes": 72984768,
+    "records": 2192,
+    "unchanged_records": 2191,
+    "casper_original_sha256": "137d02af9e7550525434541b172ea6cff3c241a6c678ca1595cc5ff40adb6de2",
+    "casper_fixed_sha256": "44e8e74b4e6d45a15b00b743b015183039ed9cca7582611387445d09bb43a1d5",
+    "command_paths": {
+      "awk": [
+        "usr/bin/awk"
+      ],
+      "tail": [
+        "usr/bin/tail"
+      ],
+      "wc": [
+        "usr/bin/wc"
+      ],
+      "tr": [
+        "usr/bin/tr"
+      ],
+      "mount": [
+        "usr/bin/mount"
+      ],
+      "mkdir": [
+        "usr/bin/mkdir"
+      ],
+      "umount": [
+        "usr/bin/umount"
+      ],
+      "rm": [
+        "usr/bin/rm"
+      ],
+      "sh": [
+        "usr/bin/sh"
+      ],
+      "curl": [
+        "usr/bin/curl"
+      ]
+    }
+  },
+  {
+    "key": "61812e107ad3cdf3",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/20260604-1324-88395a11/initrd.lz",
+    "labels": [
+      "KDE Neon User"
+    ],
+    "menus": [
+      "live-neon.ipxe"
+    ],
+    "source_sha256": "f0b505bd43983f1d89f35fd703b94d21a9a2e7a38ef8883bf08423282d5df59a",
+    "compression": "zstd",
+    "mount_function": "do_urlmount",
+    "fix_sha256": "b17841dd3eb4955291f387a33054bc01a78ef87706b72dbcf9a58f41d1ae2047",
+    "patcher_sha256": "97e631a24cd6915705268526b341bdc36ff9be6c651bafc6add27e7674aa27cf",
+    "initrd_sha256": "426f227ac27156617fecfa82628877a183abf031c423c4a39fe406b32fd929d5",
+    "initrd_bytes": 86976816,
+    "records": 2727,
+    "unchanged_records": 2726,
+    "casper_original_sha256": "e4655c495745a06aa60668588a1e85ec970e3cc1fb05a13e7cc7d77c83b567a8",
+    "casper_fixed_sha256": "9933a98522c760cca2e406f3ece070fabb4dec0fdbc7048b66b8b33b1fa16ea4",
+    "command_paths": {
+      "awk": [
+        "usr/bin/awk"
+      ],
+      "tail": [
+        "usr/bin/tail"
+      ],
+      "wc": [
+        "usr/bin/wc"
+      ],
+      "tr": [
+        "usr/bin/tr"
+      ],
+      "mount": [
+        "usr/bin/mount"
+      ],
+      "mkdir": [
+        "usr/bin/mkdir"
+      ],
+      "umount": [
+        "usr/bin/umount"
+      ],
+      "rm": [
+        "usr/bin/rm"
+      ],
+      "sh": [
+        "usr/bin/sh"
+      ],
+      "curl": [
+        "usr/bin/curl"
+      ]
+    }
+  },
+  {
+    "key": "63ef8c6e1147ce47",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/2022.02.28-e364d0a5/initrd",
+    "labels": [
+      "Nitrux 2022.02.28"
+    ],
+    "menus": [
+      "live-nitrux.ipxe"
+    ],
+    "source_sha256": "3e774434c77d7574452af16e21de511a701c92ff1064f8039ede137bad25481b",
+    "compression": "gzip",
+    "mount_function": "do_httpmount",
+    "fix_sha256": "b17841dd3eb4955291f387a33054bc01a78ef87706b72dbcf9a58f41d1ae2047",
+    "patcher_sha256": "97e631a24cd6915705268526b341bdc36ff9be6c651bafc6add27e7674aa27cf",
+    "initrd_sha256": "0e1502780a848ec065b4e094aa17f8d75e3a048e932d087d09b00aba4d6d99e6",
+    "initrd_bytes": 91576903,
+    "records": 3380,
+    "unchanged_records": 3379,
+    "casper_original_sha256": "2ebfe45816132ecf986091c33b71b06adc1ecb412a46aff1f81606829dd41592",
+    "casper_fixed_sha256": "0fb1501c149de9eb4d843bcb3667e3ebb8b77bd86e6f69f65ee602369691b69d",
+    "command_paths": {
+      "awk": [
+        "usr/bin/awk"
+      ],
+      "tail": [
+        "usr/bin/tail"
+      ],
+      "wc": [
+        "usr/bin/wc"
+      ],
+      "tr": [
+        "usr/bin/tr"
+      ],
+      "mount": [
+        "usr/bin/mount"
+      ],
+      "mkdir": [
+        "usr/bin/mkdir"
+      ],
+      "umount": [
+        "usr/bin/umount"
+      ],
+      "rm": [
+        "usr/bin/rm"
+      ],
+      "sh": [
+        "usr/bin/sh"
+      ],
+      "curl": [
+        "usr/bin/curl"
+      ]
+    }
+  },
+  {
+    "key": "ee5f82f39da15325",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/5-66b7e861/initrd",
+    "labels": [
+      "Pop 20.04 Intel-Amd"
+    ],
+    "menus": [
+      "live-popos.ipxe"
+    ],
+    "source_sha256": "6b9f60e2b33c2533f7165a8491470d1dcfd15cae0988c5e521370c5adc91e425",
+    "compression": "xz-crc32",
+    "mount_function": "do_urlmount",
+    "fix_sha256": "b17841dd3eb4955291f387a33054bc01a78ef87706b72dbcf9a58f41d1ae2047",
+    "patcher_sha256": "97e631a24cd6915705268526b341bdc36ff9be6c651bafc6add27e7674aa27cf",
+    "initrd_sha256": "c72fd6822cc07392eec7341c39381d5727226d9a074d9b0777620f2e3cc17ad3",
+    "initrd_bytes": 58541824,
+    "records": 3316,
+    "unchanged_records": 3315,
+    "casper_original_sha256": "e186850eca04134ec8bd352ced89afd30af4cfae7646135046f07a5d53e3a17f",
+    "casper_fixed_sha256": "7df623cc13bc5f93e2a76a4fe5f7cdb02ecf88fab55c56ffd11b1c4fc9970553",
+    "command_paths": {
+      "awk": [
+        "usr/bin/awk"
+      ],
+      "tail": [
+        "usr/bin/tail"
+      ],
+      "wc": [
+        "usr/bin/wc"
+      ],
+      "tr": [
+        "usr/bin/tr"
+      ],
+      "mount": [
+        "usr/bin/mount"
+      ],
+      "mkdir": [
+        "usr/bin/mkdir"
+      ],
+      "umount": [
+        "usr/bin/umount"
+      ],
+      "rm": [
+        "usr/bin/rm"
+      ],
+      "sh": [
+        "usr/bin/sh"
+      ],
+      "curl": [
+        "usr/bin/curl"
+      ]
+    }
+  },
+  {
+    "key": "787ffafa8bfa192d",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/5-6efd1d75/initrd",
+    "labels": [
+      "Pop 20.04 Nvidia"
+    ],
+    "menus": [
+      "live-popos.ipxe"
+    ],
+    "source_sha256": "2b0fd4d3721c8901c696c056ef07f8eaba1d790da639d9bf378ff0ca653b7840",
+    "compression": "xz-crc32",
+    "mount_function": "do_urlmount",
+    "fix_sha256": "b17841dd3eb4955291f387a33054bc01a78ef87706b72dbcf9a58f41d1ae2047",
+    "patcher_sha256": "97e631a24cd6915705268526b341bdc36ff9be6c651bafc6add27e7674aa27cf",
+    "initrd_sha256": "6acc85043f529dd2b27a13f87c41e18ce2664d12ef7d8e7e18b210fb246c5396",
+    "initrd_bytes": 58685260,
+    "records": 3089,
+    "unchanged_records": 3088,
+    "casper_original_sha256": "e186850eca04134ec8bd352ced89afd30af4cfae7646135046f07a5d53e3a17f",
+    "casper_fixed_sha256": "7df623cc13bc5f93e2a76a4fe5f7cdb02ecf88fab55c56ffd11b1c4fc9970553",
+    "command_paths": {
+      "awk": [
+        "usr/bin/awk"
+      ],
+      "tail": [
+        "usr/bin/tail"
+      ],
+      "wc": [
+        "usr/bin/wc"
+      ],
+      "tr": [
+        "usr/bin/tr"
+      ],
+      "mount": [
+        "usr/bin/mount"
+      ],
+      "mkdir": [
+        "usr/bin/mkdir"
+      ],
+      "umount": [
+        "usr/bin/umount"
+      ],
+      "rm": [
+        "usr/bin/rm"
+      ],
+      "sh": [
+        "usr/bin/sh"
+      ],
+      "curl": [
+        "usr/bin/curl"
+      ]
+    }
+  },
+  {
+    "key": "af49697a597c519a",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/21-23d162dc/initrd",
+    "labels": [
+      "Pop 22.04 Intel-Amd"
+    ],
+    "menus": [
+      "live-popos.ipxe"
+    ],
+    "source_sha256": "cfb03a91d01dca23fcd5f03774d218307139169351bc496c412f78c551d92b27",
+    "compression": "zstd",
+    "mount_function": "do_urlmount",
+    "fix_sha256": "b17841dd3eb4955291f387a33054bc01a78ef87706b72dbcf9a58f41d1ae2047",
+    "patcher_sha256": "97e631a24cd6915705268526b341bdc36ff9be6c651bafc6add27e7674aa27cf",
+    "initrd_sha256": "cac0a46e3b7ede9a6216368df805d83529d20603457f5d34160aa9129ad6898d",
+    "initrd_bytes": 113682918,
+    "records": 3927,
+    "unchanged_records": 3926,
+    "casper_original_sha256": "e4655c495745a06aa60668588a1e85ec970e3cc1fb05a13e7cc7d77c83b567a8",
+    "casper_fixed_sha256": "9933a98522c760cca2e406f3ece070fabb4dec0fdbc7048b66b8b33b1fa16ea4",
+    "command_paths": {
+      "awk": [
+        "usr/bin/awk"
+      ],
+      "tail": [
+        "usr/bin/tail"
+      ],
+      "wc": [
+        "usr/bin/wc"
+      ],
+      "tr": [
+        "usr/bin/tr"
+      ],
+      "mount": [
+        "usr/bin/mount"
+      ],
+      "mkdir": [
+        "usr/bin/mkdir"
+      ],
+      "umount": [
+        "usr/bin/umount"
+      ],
+      "rm": [
+        "usr/bin/rm"
+      ],
+      "sh": [
+        "usr/bin/sh"
+      ],
+      "curl": [
+        "usr/bin/curl"
+      ]
+    }
+  },
+  {
+    "key": "1559da8f2c1f5953",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/1.2-e7db33e3/initrd",
+    "labels": [
+      "Regolith 1.2"
+    ],
+    "menus": [
+      "live-regolith.ipxe"
+    ],
+    "source_sha256": "7b60c2d33f89aa383f2e107fee2707c008c44ee315f9df3478be1dfa0133466f",
+    "compression": "xz-crc32",
+    "mount_function": "do_httpmount",
+    "fix_sha256": "b17841dd3eb4955291f387a33054bc01a78ef87706b72dbcf9a58f41d1ae2047",
+    "patcher_sha256": "97e631a24cd6915705268526b341bdc36ff9be6c651bafc6add27e7674aa27cf",
+    "initrd_sha256": "787920664489d8a5eaf8d99b37990091a88fa74fe0488d054ec7c2c8e45fe05c",
+    "initrd_bytes": 51805336,
+    "records": 3098,
+    "unchanged_records": 3097,
+    "casper_original_sha256": "2ebfe45816132ecf986091c33b71b06adc1ecb412a46aff1f81606829dd41592",
+    "casper_fixed_sha256": "0fb1501c149de9eb4d843bcb3667e3ebb8b77bd86e6f69f65ee602369691b69d",
+    "command_paths": {
+      "awk": [
+        "bin/awk"
+      ],
+      "tail": [
+        "bin/tail"
+      ],
+      "wc": [
+        "bin/wc"
+      ],
+      "tr": [
+        "bin/tr"
+      ],
+      "mount": [
+        "bin/mount"
+      ],
+      "mkdir": [
+        "bin/mkdir"
+      ],
+      "umount": [
+        "bin/umount"
+      ],
+      "rm": [
+        "bin/rm"
+      ],
+      "sh": [
+        "bin/sh"
+      ],
+      "curl": [
+        "bin/curl"
+      ]
+    }
+  },
+  {
+    "key": "e0bf88a29ddc61ad",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/20.04.6-67d49334/initrd",
+    "labels": [
+      "Ubuntu 20.04 Budgie"
+    ],
+    "menus": [
+      "live-ubuntu.ipxe"
+    ],
+    "source_sha256": "34d46ff4eda17cd212ad704456ed13af08e58e651691af4d6ab43c4c44ef8638",
+    "compression": "xz-crc32",
+    "mount_function": "do_urlmount",
+    "fix_sha256": "b17841dd3eb4955291f387a33054bc01a78ef87706b72dbcf9a58f41d1ae2047",
+    "patcher_sha256": "97e631a24cd6915705268526b341bdc36ff9be6c651bafc6add27e7674aa27cf",
+    "initrd_sha256": "6b8be6efba0497cb47484105478112c27f2a8f18c663da194c7caf1df77e990c",
+    "initrd_bytes": 94131848,
+    "records": 4249,
+    "unchanged_records": 4248,
+    "casper_original_sha256": "cccb4c1ae0d57e460ee7982848b304d6205843b60b9703e763be3c9c30173e8a",
+    "casper_fixed_sha256": "a2327dd5f46742bfd88b7ab800e99e962fc3c808e288756c0438da34166e1a34",
+    "command_paths": {
+      "awk": [
+        "usr/bin/awk"
+      ],
+      "tail": [
+        "usr/bin/tail"
+      ],
+      "wc": [
+        "usr/bin/wc"
+      ],
+      "tr": [
+        "usr/bin/tr"
+      ],
+      "mount": [
+        "usr/bin/mount"
+      ],
+      "mkdir": [
+        "usr/bin/mkdir"
+      ],
+      "umount": [
+        "usr/bin/umount"
+      ],
+      "rm": [
+        "usr/bin/rm"
+      ],
+      "sh": [
+        "usr/bin/sh"
+      ],
+      "curl": [
+        "usr/bin/curl"
+      ]
+    }
+  },
+  {
+    "key": "b2013b52accddd3f",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/20.04.6-b70db93f/initrd",
+    "labels": [
+      "Ubuntu 20.04 Kde"
+    ],
+    "menus": [
+      "live-ubuntu.ipxe"
+    ],
+    "source_sha256": "f211eb4a59adcc1986b038cc9694383d5ec26f076dacca9081b040df8716812f",
+    "compression": "xz-crc32",
+    "mount_function": "do_urlmount",
+    "fix_sha256": "b17841dd3eb4955291f387a33054bc01a78ef87706b72dbcf9a58f41d1ae2047",
+    "patcher_sha256": "97e631a24cd6915705268526b341bdc36ff9be6c651bafc6add27e7674aa27cf",
+    "initrd_sha256": "e0a4930fc33209d5306ce98943e889008ab778b0cc02a28cd81064f9a6bc1fc9",
+    "initrd_bytes": 91281224,
+    "records": 4148,
+    "unchanged_records": 4147,
+    "casper_original_sha256": "cccb4c1ae0d57e460ee7982848b304d6205843b60b9703e763be3c9c30173e8a",
+    "casper_fixed_sha256": "a2327dd5f46742bfd88b7ab800e99e962fc3c808e288756c0438da34166e1a34",
+    "command_paths": {
+      "awk": [
+        "usr/bin/awk"
+      ],
+      "tail": [
+        "usr/bin/tail"
+      ],
+      "wc": [
+        "usr/bin/wc"
+      ],
+      "tr": [
+        "usr/bin/tr"
+      ],
+      "mount": [
+        "usr/bin/mount"
+      ],
+      "mkdir": [
+        "usr/bin/mkdir"
+      ],
+      "umount": [
+        "usr/bin/umount"
+      ],
+      "rm": [
+        "usr/bin/rm"
+      ],
+      "sh": [
+        "usr/bin/sh"
+      ],
+      "curl": [
+        "usr/bin/curl"
+      ]
+    }
+  },
+  {
+    "key": "1c7b10672637ae63",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/20.04.5-d8b36f04/initrd",
+    "labels": [
+      "Ubuntu 20.04 Lxqt"
+    ],
+    "menus": [
+      "live-ubuntu.ipxe"
+    ],
+    "source_sha256": "80bc946f3f558f6ec496d62ee4f946ff1ba6e8190e46679e752d5401a6d85b68",
+    "compression": "xz-crc32",
+    "mount_function": "do_urlmount",
+    "fix_sha256": "b17841dd3eb4955291f387a33054bc01a78ef87706b72dbcf9a58f41d1ae2047",
+    "patcher_sha256": "97e631a24cd6915705268526b341bdc36ff9be6c651bafc6add27e7674aa27cf",
+    "initrd_sha256": "b7c6d9bb2593c81ce14679b437ccd7327389896d02eaf5f7a1c31d6c3108c70e",
+    "initrd_bytes": 88718184,
+    "records": 4147,
+    "unchanged_records": 4146,
+    "casper_original_sha256": "cccb4c1ae0d57e460ee7982848b304d6205843b60b9703e763be3c9c30173e8a",
+    "casper_fixed_sha256": "a2327dd5f46742bfd88b7ab800e99e962fc3c808e288756c0438da34166e1a34",
+    "command_paths": {
+      "awk": [
+        "usr/bin/awk"
+      ],
+      "tail": [
+        "usr/bin/tail"
+      ],
+      "wc": [
+        "usr/bin/wc"
+      ],
+      "tr": [
+        "usr/bin/tr"
+      ],
+      "mount": [
+        "usr/bin/mount"
+      ],
+      "mkdir": [
+        "usr/bin/mkdir"
+      ],
+      "umount": [
+        "usr/bin/umount"
+      ],
+      "rm": [
+        "usr/bin/rm"
+      ],
+      "sh": [
+        "usr/bin/sh"
+      ],
+      "curl": [
+        "usr/bin/curl"
+      ]
+    }
+  },
+  {
+    "key": "73a398361861f412",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/20.04.6-6bb01f2e/initrd",
+    "labels": [
+      "Ubuntu 20.04 Mate"
+    ],
+    "menus": [
+      "live-ubuntu.ipxe"
+    ],
+    "source_sha256": "f471fe0295f4217570f7f6e9a935eaf5aa5bb15521519dfbd7bfbe200dac4dc9",
+    "compression": "xz-crc32",
+    "mount_function": "do_urlmount",
+    "fix_sha256": "b17841dd3eb4955291f387a33054bc01a78ef87706b72dbcf9a58f41d1ae2047",
+    "patcher_sha256": "97e631a24cd6915705268526b341bdc36ff9be6c651bafc6add27e7674aa27cf",
+    "initrd_sha256": "adb77d985a9d297b674a0562ff30b5cf846f172638d1786af8fee37fdeca5f73",
+    "initrd_bytes": 94133312,
+    "records": 4245,
+    "unchanged_records": 4244,
+    "casper_original_sha256": "cccb4c1ae0d57e460ee7982848b304d6205843b60b9703e763be3c9c30173e8a",
+    "casper_fixed_sha256": "a2327dd5f46742bfd88b7ab800e99e962fc3c808e288756c0438da34166e1a34",
+    "command_paths": {
+      "awk": [
+        "usr/bin/awk"
+      ],
+      "tail": [
+        "usr/bin/tail"
+      ],
+      "wc": [
+        "usr/bin/wc"
+      ],
+      "tr": [
+        "usr/bin/tr"
+      ],
+      "mount": [
+        "usr/bin/mount"
+      ],
+      "mkdir": [
+        "usr/bin/mkdir"
+      ],
+      "umount": [
+        "usr/bin/umount"
+      ],
+      "rm": [
+        "usr/bin/rm"
+      ],
+      "sh": [
+        "usr/bin/sh"
+      ],
+      "curl": [
+        "usr/bin/curl"
+      ]
+    }
+  },
+  {
+    "key": "5ee7570c4b694a99",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/20.04.6-09e46288/initrd",
+    "labels": [
+      "Ubuntu 20.04 Xfce"
+    ],
+    "menus": [
+      "live-ubuntu.ipxe"
+    ],
+    "source_sha256": "5f2cd2b2325fc9c2d5d0cadd64d2bee632fc77dd4842f6683d25348e5912f249",
+    "compression": "xz-crc32",
+    "mount_function": "do_urlmount",
+    "fix_sha256": "b17841dd3eb4955291f387a33054bc01a78ef87706b72dbcf9a58f41d1ae2047",
+    "patcher_sha256": "97e631a24cd6915705268526b341bdc36ff9be6c651bafc6add27e7674aa27cf",
+    "initrd_sha256": "632f9785ce2eee48112a7b8f3dc429c03c373a0a0b17676c2ae1f4032de81717",
+    "initrd_bytes": 94121664,
+    "records": 4244,
+    "unchanged_records": 4243,
+    "casper_original_sha256": "cccb4c1ae0d57e460ee7982848b304d6205843b60b9703e763be3c9c30173e8a",
+    "casper_fixed_sha256": "a2327dd5f46742bfd88b7ab800e99e962fc3c808e288756c0438da34166e1a34",
+    "command_paths": {
+      "awk": [
+        "usr/bin/awk"
+      ],
+      "tail": [
+        "usr/bin/tail"
+      ],
+      "wc": [
+        "usr/bin/wc"
+      ],
+      "tr": [
+        "usr/bin/tr"
+      ],
+      "mount": [
+        "usr/bin/mount"
+      ],
+      "mkdir": [
+        "usr/bin/mkdir"
+      ],
+      "umount": [
+        "usr/bin/umount"
+      ],
+      "rm": [
+        "usr/bin/rm"
+      ],
+      "sh": [
+        "usr/bin/sh"
+      ],
+      "curl": [
+        "usr/bin/curl"
+      ]
+    }
+  },
+  {
+    "key": "e62005a25b134133",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/20.04.6-d37bfb5f/initrd",
+    "labels": [
+      "Ubuntu 20.04 Gnome"
+    ],
+    "menus": [
+      "live-ubuntu.ipxe"
+    ],
+    "source_sha256": "e41a95bada377ecb6b6c192f9f271141e0f538b7036803501c4d4b3b40134bbe",
+    "compression": "xz-crc32",
+    "mount_function": "do_urlmount",
+    "fix_sha256": "b17841dd3eb4955291f387a33054bc01a78ef87706b72dbcf9a58f41d1ae2047",
+    "patcher_sha256": "97e631a24cd6915705268526b341bdc36ff9be6c651bafc6add27e7674aa27cf",
+    "initrd_sha256": "6df3d17754b7ad1f284b2bafac3fac60b053f556c665347a15f81173f9709c3e",
+    "initrd_bytes": 94191664,
+    "records": 4308,
+    "unchanged_records": 4307,
+    "casper_original_sha256": "cccb4c1ae0d57e460ee7982848b304d6205843b60b9703e763be3c9c30173e8a",
+    "casper_fixed_sha256": "a2327dd5f46742bfd88b7ab800e99e962fc3c808e288756c0438da34166e1a34",
+    "command_paths": {
+      "awk": [
+        "usr/bin/awk"
+      ],
+      "tail": [
+        "usr/bin/tail"
+      ],
+      "wc": [
+        "usr/bin/wc"
+      ],
+      "tr": [
+        "usr/bin/tr"
+      ],
+      "mount": [
+        "usr/bin/mount"
+      ],
+      "mkdir": [
+        "usr/bin/mkdir"
+      ],
+      "umount": [
+        "usr/bin/umount"
+      ],
+      "rm": [
+        "usr/bin/rm"
+      ],
+      "sh": [
+        "usr/bin/sh"
+      ],
+      "curl": [
+        "usr/bin/curl"
+      ]
+    }
+  },
+  {
+    "key": "0289676e12b0386b",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/20.04.6-3bddfc62/initrd",
+    "labels": [
+      "Ubuntu 20.04 Kylin"
+    ],
+    "menus": [
+      "live-ubuntu.ipxe"
+    ],
+    "source_sha256": "811a3942e92f8941089b5a0611ecb9c763d75b2b72857a164966996fd54fdc3e",
+    "compression": "xz-crc32",
+    "mount_function": "do_urlmount",
+    "fix_sha256": "b17841dd3eb4955291f387a33054bc01a78ef87706b72dbcf9a58f41d1ae2047",
+    "patcher_sha256": "97e631a24cd6915705268526b341bdc36ff9be6c651bafc6add27e7674aa27cf",
+    "initrd_sha256": "b40f49f962d7d800e8fd3867c96602244bf5dd8cca3b1294561c87c9dca0cd27",
+    "initrd_bytes": 100292072,
+    "records": 4296,
+    "unchanged_records": 4295,
+    "casper_original_sha256": "cccb4c1ae0d57e460ee7982848b304d6205843b60b9703e763be3c9c30173e8a",
+    "casper_fixed_sha256": "a2327dd5f46742bfd88b7ab800e99e962fc3c808e288756c0438da34166e1a34",
+    "command_paths": {
+      "awk": [
+        "usr/bin/awk"
+      ],
+      "tail": [
+        "usr/bin/tail"
+      ],
+      "wc": [
+        "usr/bin/wc"
+      ],
+      "tr": [
+        "usr/bin/tr"
+      ],
+      "mount": [
+        "usr/bin/mount"
+      ],
+      "mkdir": [
+        "usr/bin/mkdir"
+      ],
+      "umount": [
+        "usr/bin/umount"
+      ],
+      "rm": [
+        "usr/bin/rm"
+      ],
+      "sh": [
+        "usr/bin/sh"
+      ],
+      "curl": [
+        "usr/bin/curl"
+      ]
+    }
+  },
+  {
+    "key": "61606123276f8679",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/22.04.5-6741cfe6/initrd",
+    "labels": [
+      "Ubuntu 22.04 Budgie"
+    ],
+    "menus": [
+      "live-ubuntu.ipxe"
+    ],
+    "source_sha256": "eb5f07841c77913a73436900198653bb4e7e900fc4535c8a9f60b7ff59493af4",
+    "compression": "zstd",
+    "mount_function": "do_urlmount",
+    "fix_sha256": "b17841dd3eb4955291f387a33054bc01a78ef87706b72dbcf9a58f41d1ae2047",
+    "patcher_sha256": "97e631a24cd6915705268526b341bdc36ff9be6c651bafc6add27e7674aa27cf",
+    "initrd_sha256": "10cdf38d1a4b45541e13897d6dabf0b30953e331001a9db47f69170361632932",
+    "initrd_bytes": 137237715,
+    "records": 4739,
+    "unchanged_records": 4738,
+    "casper_original_sha256": "e4655c495745a06aa60668588a1e85ec970e3cc1fb05a13e7cc7d77c83b567a8",
+    "casper_fixed_sha256": "9933a98522c760cca2e406f3ece070fabb4dec0fdbc7048b66b8b33b1fa16ea4",
+    "command_paths": {
+      "awk": [
+        "usr/bin/awk"
+      ],
+      "tail": [
+        "usr/bin/tail"
+      ],
+      "wc": [
+        "usr/bin/wc"
+      ],
+      "tr": [
+        "usr/bin/tr"
+      ],
+      "mount": [
+        "usr/bin/mount"
+      ],
+      "mkdir": [
+        "usr/bin/mkdir"
+      ],
+      "umount": [
+        "usr/bin/umount"
+      ],
+      "rm": [
+        "usr/bin/rm"
+      ],
+      "sh": [
+        "usr/bin/sh"
+      ],
+      "curl": [
+        "usr/bin/curl"
+      ]
+    }
+  },
+  {
+    "key": "316a7475d0ee7c7f",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/22.04.5-15476290/initrd",
+    "labels": [
+      "Ubuntu 22.04 Kde"
+    ],
+    "menus": [
+      "live-ubuntu.ipxe"
+    ],
+    "source_sha256": "ce97b0954eec89d64d309d246787d627d0726115c2c665412218818daba5ce4d",
+    "compression": "zstd",
+    "mount_function": "do_urlmount",
+    "fix_sha256": "b17841dd3eb4955291f387a33054bc01a78ef87706b72dbcf9a58f41d1ae2047",
+    "patcher_sha256": "97e631a24cd6915705268526b341bdc36ff9be6c651bafc6add27e7674aa27cf",
+    "initrd_sha256": "0230c6eebf304d5485825c9d9122ccf65bcacfd712018a86b0c911a0d112d94d",
+    "initrd_bytes": 128478064,
+    "records": 4656,
+    "unchanged_records": 4655,
+    "casper_original_sha256": "e4655c495745a06aa60668588a1e85ec970e3cc1fb05a13e7cc7d77c83b567a8",
+    "casper_fixed_sha256": "9933a98522c760cca2e406f3ece070fabb4dec0fdbc7048b66b8b33b1fa16ea4",
+    "command_paths": {
+      "awk": [
+        "usr/bin/awk"
+      ],
+      "tail": [
+        "usr/bin/tail"
+      ],
+      "wc": [
+        "usr/bin/wc"
+      ],
+      "tr": [
+        "usr/bin/tr"
+      ],
+      "mount": [
+        "usr/bin/mount"
+      ],
+      "mkdir": [
+        "usr/bin/mkdir"
+      ],
+      "umount": [
+        "usr/bin/umount"
+      ],
+      "rm": [
+        "usr/bin/rm"
+      ],
+      "sh": [
+        "usr/bin/sh"
+      ],
+      "curl": [
+        "usr/bin/curl"
+      ]
+    }
+  },
+  {
+    "key": "288153b507d1ab18",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/22.04.5-898ace36/initrd",
+    "labels": [
+      "Ubuntu 22.04 Lxqt"
+    ],
+    "menus": [
+      "live-ubuntu.ipxe"
+    ],
+    "source_sha256": "bf38d0ac5ef7ab5144506932c4348f01e4af1f06e9be5a01b05299f6e83592c4",
+    "compression": "zstd",
+    "mount_function": "do_urlmount",
+    "fix_sha256": "b17841dd3eb4955291f387a33054bc01a78ef87706b72dbcf9a58f41d1ae2047",
+    "patcher_sha256": "97e631a24cd6915705268526b341bdc36ff9be6c651bafc6add27e7674aa27cf",
+    "initrd_sha256": "f4eb3f0021649201b44837d72866355d765118f824eef581a14d24c0e7ae878f",
+    "initrd_bytes": 129734041,
+    "records": 5067,
+    "unchanged_records": 5066,
+    "casper_original_sha256": "e4655c495745a06aa60668588a1e85ec970e3cc1fb05a13e7cc7d77c83b567a8",
+    "casper_fixed_sha256": "9933a98522c760cca2e406f3ece070fabb4dec0fdbc7048b66b8b33b1fa16ea4",
+    "command_paths": {
+      "awk": [
+        "usr/bin/awk"
+      ],
+      "tail": [
+        "usr/bin/tail"
+      ],
+      "wc": [
+        "usr/bin/wc"
+      ],
+      "tr": [
+        "usr/bin/tr"
+      ],
+      "mount": [
+        "usr/bin/mount"
+      ],
+      "mkdir": [
+        "usr/bin/mkdir"
+      ],
+      "umount": [
+        "usr/bin/umount"
+      ],
+      "rm": [
+        "usr/bin/rm"
+      ],
+      "sh": [
+        "usr/bin/sh"
+      ],
+      "curl": [
+        "usr/bin/curl"
+      ]
+    }
+  },
+  {
+    "key": "ef7a950ea4b75278",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/22.04.5-c6e8816b/initrd",
+    "labels": [
+      "Ubuntu 22.04 Mate"
+    ],
+    "menus": [
+      "live-ubuntu.ipxe"
+    ],
+    "source_sha256": "f90a26a3fbc32f6af3c6d4f19c0c1ebcae1800005e0b82a060a51b7a2bef4f94",
+    "compression": "zstd",
+    "mount_function": "do_urlmount",
+    "fix_sha256": "b17841dd3eb4955291f387a33054bc01a78ef87706b72dbcf9a58f41d1ae2047",
+    "patcher_sha256": "97e631a24cd6915705268526b341bdc36ff9be6c651bafc6add27e7674aa27cf",
+    "initrd_sha256": "4c38479e38317d4fb839969ac708f115bf057777c2846034bcc24d99a8a461e0",
+    "initrd_bytes": 137196209,
+    "records": 4734,
+    "unchanged_records": 4733,
+    "casper_original_sha256": "e4655c495745a06aa60668588a1e85ec970e3cc1fb05a13e7cc7d77c83b567a8",
+    "casper_fixed_sha256": "9933a98522c760cca2e406f3ece070fabb4dec0fdbc7048b66b8b33b1fa16ea4",
+    "command_paths": {
+      "awk": [
+        "usr/bin/awk"
+      ],
+      "tail": [
+        "usr/bin/tail"
+      ],
+      "wc": [
+        "usr/bin/wc"
+      ],
+      "tr": [
+        "usr/bin/tr"
+      ],
+      "mount": [
+        "usr/bin/mount"
+      ],
+      "mkdir": [
+        "usr/bin/mkdir"
+      ],
+      "umount": [
+        "usr/bin/umount"
+      ],
+      "rm": [
+        "usr/bin/rm"
+      ],
+      "sh": [
+        "usr/bin/sh"
+      ],
+      "curl": [
+        "usr/bin/curl"
+      ]
+    }
+  },
+  {
+    "key": "a91d361ff0f8901f",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/22.04.5-c2dcb4c5/initrd",
+    "labels": [
+      "Ubuntu 22.04 Xfce"
+    ],
+    "menus": [
+      "live-ubuntu.ipxe"
+    ],
+    "source_sha256": "98fe26847553aa283813b671fe8fff2d5036d03f07fb69695fa8215391bd6701",
+    "compression": "zstd",
+    "mount_function": "do_urlmount",
+    "fix_sha256": "b17841dd3eb4955291f387a33054bc01a78ef87706b72dbcf9a58f41d1ae2047",
+    "patcher_sha256": "97e631a24cd6915705268526b341bdc36ff9be6c651bafc6add27e7674aa27cf",
+    "initrd_sha256": "d897f9b71ab1521cc2eda08dcc99f87c053c77404b7bd35dfdb7c6d7f4b3ca93",
+    "initrd_bytes": 137495022,
+    "records": 4734,
+    "unchanged_records": 4733,
+    "casper_original_sha256": "e4655c495745a06aa60668588a1e85ec970e3cc1fb05a13e7cc7d77c83b567a8",
+    "casper_fixed_sha256": "9933a98522c760cca2e406f3ece070fabb4dec0fdbc7048b66b8b33b1fa16ea4",
+    "command_paths": {
+      "awk": [
+        "usr/bin/awk"
+      ],
+      "tail": [
+        "usr/bin/tail"
+      ],
+      "wc": [
+        "usr/bin/wc"
+      ],
+      "tr": [
+        "usr/bin/tr"
+      ],
+      "mount": [
+        "usr/bin/mount"
+      ],
+      "mkdir": [
+        "usr/bin/mkdir"
+      ],
+      "umount": [
+        "usr/bin/umount"
+      ],
+      "rm": [
+        "usr/bin/rm"
+      ],
+      "sh": [
+        "usr/bin/sh"
+      ],
+      "curl": [
+        "usr/bin/curl"
+      ]
+    }
+  },
+  {
+    "key": "a1b2b0b49f4bd7ed",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/22.04.5-206d4f50/initrd",
+    "labels": [
+      "Ubuntu 22.04 Gnome"
+    ],
+    "menus": [
+      "live-ubuntu.ipxe"
+    ],
+    "source_sha256": "d199378b1ae3f084c2d933b6518b38f44ad90476ca26a2d28e92d6bc6ba11e1c",
+    "compression": "zstd",
+    "mount_function": "do_urlmount",
+    "fix_sha256": "b17841dd3eb4955291f387a33054bc01a78ef87706b72dbcf9a58f41d1ae2047",
+    "patcher_sha256": "97e631a24cd6915705268526b341bdc36ff9be6c651bafc6add27e7674aa27cf",
+    "initrd_sha256": "df0e88c370cb2bd1edd6a8d4211d79d4fbbc7e3a7911318c65af2547ad2271b4",
+    "initrd_bytes": 137420579,
+    "records": 4799,
+    "unchanged_records": 4798,
+    "casper_original_sha256": "e4655c495745a06aa60668588a1e85ec970e3cc1fb05a13e7cc7d77c83b567a8",
+    "casper_fixed_sha256": "9933a98522c760cca2e406f3ece070fabb4dec0fdbc7048b66b8b33b1fa16ea4",
+    "command_paths": {
+      "awk": [
+        "usr/bin/awk"
+      ],
+      "tail": [
+        "usr/bin/tail"
+      ],
+      "wc": [
+        "usr/bin/wc"
+      ],
+      "tr": [
+        "usr/bin/tr"
+      ],
+      "mount": [
+        "usr/bin/mount"
+      ],
+      "mkdir": [
+        "usr/bin/mkdir"
+      ],
+      "umount": [
+        "usr/bin/umount"
+      ],
+      "rm": [
+        "usr/bin/rm"
+      ],
+      "sh": [
+        "usr/bin/sh"
+      ],
+      "curl": [
+        "usr/bin/curl"
+      ]
+    }
+  },
+  {
+    "key": "6b430fb6fcb26cb3",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/22.04.5-ea089ee1/initrd",
+    "labels": [
+      "Ubuntu 22.04 Kylin"
+    ],
+    "menus": [
+      "live-ubuntu.ipxe"
+    ],
+    "source_sha256": "34b3f58218552e3084409a113c21d23a907c4b03f8a4411fdbc88e4154f06b3d",
+    "compression": "zstd",
+    "mount_function": "do_urlmount",
+    "fix_sha256": "b17841dd3eb4955291f387a33054bc01a78ef87706b72dbcf9a58f41d1ae2047",
+    "patcher_sha256": "97e631a24cd6915705268526b341bdc36ff9be6c651bafc6add27e7674aa27cf",
+    "initrd_sha256": "367125904e25bff670957f623b2acb4fcd1ae699a4a83abdb4855cbcf0b430bf",
+    "initrd_bytes": 143541780,
+    "records": 4786,
+    "unchanged_records": 4785,
+    "casper_original_sha256": "e4655c495745a06aa60668588a1e85ec970e3cc1fb05a13e7cc7d77c83b567a8",
+    "casper_fixed_sha256": "9933a98522c760cca2e406f3ece070fabb4dec0fdbc7048b66b8b33b1fa16ea4",
+    "command_paths": {
+      "awk": [
+        "usr/bin/awk"
+      ],
+      "tail": [
+        "usr/bin/tail"
+      ],
+      "wc": [
+        "usr/bin/wc"
+      ],
+      "tr": [
+        "usr/bin/tr"
+      ],
+      "mount": [
+        "usr/bin/mount"
+      ],
+      "mkdir": [
+        "usr/bin/mkdir"
+      ],
+      "umount": [
+        "usr/bin/umount"
+      ],
+      "rm": [
+        "usr/bin/rm"
+      ],
+      "sh": [
+        "usr/bin/sh"
+      ],
+      "curl": [
+        "usr/bin/curl"
+      ]
+    }
+  },
+  {
+    "key": "e3cb0e4171e54d9c",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/24.04.4-88542178/initrd",
+    "labels": [
+      "Ubuntu 24.04.4 GNOME"
+    ],
+    "menus": [
+      "live-ubuntu.ipxe"
+    ],
+    "source_sha256": "3749f0e0948e2c15e0c961ead9e6b87cbc5860323860c67c5f3609100b7e03c2",
+    "compression": "zstd",
+    "mount_function": "do_urlmount",
+    "fix_sha256": "b17841dd3eb4955291f387a33054bc01a78ef87706b72dbcf9a58f41d1ae2047",
+    "patcher_sha256": "97e631a24cd6915705268526b341bdc36ff9be6c651bafc6add27e7674aa27cf",
+    "initrd_sha256": "bb5ae9853f6f0bf5561b7ed4c80a8eafe108736f49ab8fa2f0b25845211fe54a",
+    "initrd_bytes": 84449906,
+    "records": 2730,
+    "unchanged_records": 2729,
+    "casper_original_sha256": "137d02af9e7550525434541b172ea6cff3c241a6c678ca1595cc5ff40adb6de2",
+    "casper_fixed_sha256": "44e8e74b4e6d45a15b00b743b015183039ed9cca7582611387445d09bb43a1d5",
+    "command_paths": {
+      "awk": [
+        "usr/bin/awk"
+      ],
+      "tail": [
+        "usr/bin/tail"
+      ],
+      "wc": [
+        "usr/bin/wc"
+      ],
+      "tr": [
+        "usr/bin/tr"
+      ],
+      "mount": [
+        "usr/bin/mount"
+      ],
+      "mkdir": [
+        "usr/bin/mkdir"
+      ],
+      "umount": [
+        "usr/bin/umount"
+      ],
+      "rm": [
+        "usr/bin/rm"
+      ],
+      "sh": [
+        "usr/bin/sh"
+      ],
+      "curl": [
+        "usr/bin/curl"
+      ]
+    }
+  },
+  {
+    "key": "9dfbf8737a32bc0b",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/focal-594b12a7/initrd",
+    "labels": [
+      "Voyager Live focal"
+    ],
+    "menus": [
+      "live-voyager.ipxe"
+    ],
+    "source_sha256": "35b2876d574907901ee6f3cf0f08a2f44b86d2af3e4a4999dd55b18769910b5d",
+    "compression": "xz-crc32",
+    "mount_function": "do_urlmount",
+    "fix_sha256": "b17841dd3eb4955291f387a33054bc01a78ef87706b72dbcf9a58f41d1ae2047",
+    "patcher_sha256": "97e631a24cd6915705268526b341bdc36ff9be6c651bafc6add27e7674aa27cf",
+    "initrd_sha256": "d038dd2feb7e7d7acfa25eb209b9c423087ef5fdc2002491d19728ba2bda874b",
+    "initrd_bytes": 60582536,
+    "records": 3401,
+    "unchanged_records": 3400,
+    "casper_original_sha256": "4bd5b74f8d15f98f4ba50513e1b81734648109ee9b7c7826be1b839e2062eb04",
+    "casper_fixed_sha256": "a2327dd5f46742bfd88b7ab800e99e962fc3c808e288756c0438da34166e1a34",
+    "command_paths": {
+      "awk": [
+        "usr/bin/awk"
+      ],
+      "tail": [
+        "usr/bin/tail"
+      ],
+      "wc": [
+        "usr/bin/wc"
+      ],
+      "tr": [
+        "usr/bin/tr"
+      ],
+      "mount": [
+        "usr/bin/mount"
+      ],
+      "mkdir": [
+        "usr/bin/mkdir"
+      ],
+      "umount": [
+        "usr/bin/umount"
+      ],
+      "rm": [
+        "usr/bin/rm"
+      ],
+      "sh": [
+        "usr/bin/sh"
+      ],
+      "curl": [
+        "usr/bin/curl"
+      ]
+    }
+  },
+  {
+    "key": "b2f825bf60d5ed08",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/jammy-0d0397c9/initrd",
+    "labels": [
+      "Voyager Live jammy"
+    ],
+    "menus": [
+      "live-voyager.ipxe"
+    ],
+    "source_sha256": "09f4afaff8bab488a0347d071e1298d0449433643fec4f0a46aa47a43e5270c6",
+    "compression": "zstd",
+    "mount_function": "do_urlmount",
+    "fix_sha256": "b17841dd3eb4955291f387a33054bc01a78ef87706b72dbcf9a58f41d1ae2047",
+    "patcher_sha256": "97e631a24cd6915705268526b341bdc36ff9be6c651bafc6add27e7674aa27cf",
+    "initrd_sha256": "6c4f1d6384a47e781715bc069c89c47ec1f9dd25564c41c0c938c77f87a4f1b0",
+    "initrd_bytes": 110173384,
+    "records": 4382,
+    "unchanged_records": 4381,
+    "casper_original_sha256": "e4655c495745a06aa60668588a1e85ec970e3cc1fb05a13e7cc7d77c83b567a8",
+    "casper_fixed_sha256": "9933a98522c760cca2e406f3ece070fabb4dec0fdbc7048b66b8b33b1fa16ea4",
+    "command_paths": {
+      "awk": [
+        "usr/bin/awk"
+      ],
+      "tail": [
+        "usr/bin/tail"
+      ],
+      "wc": [
+        "usr/bin/wc"
+      ],
+      "tr": [
+        "usr/bin/tr"
+      ],
+      "mount": [
+        "usr/bin/mount"
+      ],
+      "mkdir": [
+        "usr/bin/mkdir"
+      ],
+      "umount": [
+        "usr/bin/umount"
+      ],
+      "rm": [
+        "usr/bin/rm"
+      ],
+      "sh": [
+        "usr/bin/sh"
+      ],
+      "curl": [
+        "usr/bin/curl"
+      ]
+    }
+  },
+  {
+    "key": "7359b7ea711a8edc",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/18.1-13b843b3/initrd",
+    "labels": [
+      "Zorin 18.1 Core"
+    ],
+    "menus": [
+      "live-zorin.ipxe"
+    ],
+    "source_sha256": "80669e88889208a6ba4472f4926c11632e8c272ff1e162c3d44906e37b393f7e",
+    "compression": "zstd",
+    "mount_function": "do_urlmount",
+    "fix_sha256": "b17841dd3eb4955291f387a33054bc01a78ef87706b72dbcf9a58f41d1ae2047",
+    "patcher_sha256": "97e631a24cd6915705268526b341bdc36ff9be6c651bafc6add27e7674aa27cf",
+    "initrd_sha256": "88bf3861073dd1232674842babceaa4f7eb9faf5ad0b9b93add0f9940c003799",
+    "initrd_bytes": 88366356,
+    "records": 2756,
+    "unchanged_records": 2755,
+    "casper_original_sha256": "e4655c495745a06aa60668588a1e85ec970e3cc1fb05a13e7cc7d77c83b567a8",
+    "casper_fixed_sha256": "9933a98522c760cca2e406f3ece070fabb4dec0fdbc7048b66b8b33b1fa16ea4",
+    "command_paths": {
+      "awk": [
+        "usr/bin/awk"
+      ],
+      "tail": [
+        "usr/bin/tail"
+      ],
+      "wc": [
+        "usr/bin/wc"
+      ],
+      "tr": [
+        "usr/bin/tr"
+      ],
+      "mount": [
+        "usr/bin/mount"
+      ],
+      "mkdir": [
+        "usr/bin/mkdir"
+      ],
+      "umount": [
+        "usr/bin/umount"
+      ],
+      "rm": [
+        "usr/bin/rm"
+      ],
+      "sh": [
+        "usr/bin/sh"
+      ],
+      "curl": [
+        "usr/bin/curl"
+      ]
+    }
+  },
+  {
+    "key": "08803c73f16d110c",
+    "url": "https://github.com/netbootxyz/asset-mirror/releases/download/2.6.1-123ed276/initrd",
+    "labels": [
+      "Rescuezilla 2.6.1"
+    ],
+    "menus": [
+      "rescuezilla.ipxe"
+    ],
+    "source_sha256": "2ac7cd3558e55ed5fcd9ebad7c2ab99311bfd4833841a33e54c62c558d37d81b",
+    "compression": "zstd",
+    "mount_function": "do_urlmount",
+    "fix_sha256": "b17841dd3eb4955291f387a33054bc01a78ef87706b72dbcf9a58f41d1ae2047",
+    "patcher_sha256": "97e631a24cd6915705268526b341bdc36ff9be6c651bafc6add27e7674aa27cf",
+    "initrd_sha256": "073bbb3242bb90f275c3dabe9fa88cc49fd8cb17b24a3ff413fee1c1a6125251",
+    "initrd_bytes": 76035160,
+    "records": 2405,
+    "unchanged_records": 2404,
+    "casper_original_sha256": "e4655c495745a06aa60668588a1e85ec970e3cc1fb05a13e7cc7d77c83b567a8",
+    "casper_fixed_sha256": "9933a98522c760cca2e406f3ece070fabb4dec0fdbc7048b66b8b33b1fa16ea4",
+    "command_paths": {
+      "awk": [
+        "usr/bin/awk"
+      ],
+      "tail": [
+        "usr/bin/tail"
+      ],
+      "wc": [
+        "usr/bin/wc"
+      ],
+      "tr": [
+        "usr/bin/tr"
+      ],
+      "mount": [
+        "usr/bin/mount"
+      ],
+      "mkdir": [
+        "usr/bin/mkdir"
+      ],
+      "umount": [
+        "usr/bin/umount"
+      ],
+      "rm": [
+        "usr/bin/rm"
+      ],
+      "sh": [
+        "usr/bin/sh"
+      ],
+      "curl": [
+        "usr/bin/curl"
+      ]
+    }
+  },
+  {
+    "key": "5ff0bd4442bcb38a",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/current-e035b00c/initrd",
+    "labels": [
+      "Boot Repair CD"
+    ],
+    "menus": [
+      "utils-efi.ipxe",
+      "utils-pcbios-64.ipxe"
+    ],
+    "source_sha256": "ac406c80d98ccceecc0f98914b0aea0cff5eaab2146ab839d4fc1a78a1950a9b",
+    "compression": "gzip",
+    "mount_function": "do_httpmount",
+    "fix_sha256": "b17841dd3eb4955291f387a33054bc01a78ef87706b72dbcf9a58f41d1ae2047",
+    "patcher_sha256": "97e631a24cd6915705268526b341bdc36ff9be6c651bafc6add27e7674aa27cf",
+    "initrd_sha256": "7d7cbc419c19d7eea0c204c8ba1b2636873b0e6c8704a30675a300671e89a7ee",
+    "initrd_bytes": 59271761,
+    "records": 2483,
+    "unchanged_records": 2482,
+    "casper_original_sha256": "2ebfe45816132ecf986091c33b71b06adc1ecb412a46aff1f81606829dd41592",
+    "casper_fixed_sha256": "0fb1501c149de9eb4d843bcb3667e3ebb8b77bd86e6f69f65ee602369691b69d",
+    "command_paths": {
+      "awk": [
+        "bin/awk"
+      ],
+      "tail": [
+        "bin/tail"
+      ],
+      "wc": [
+        "bin/wc"
+      ],
+      "tr": [
+        "bin/tr"
+      ],
+      "mount": [
+        "bin/mount"
+      ],
+      "mkdir": [
+        "bin/mkdir"
+      ],
+      "umount": [
+        "bin/umount"
+      ],
+      "rm": [
+        "bin/rm"
+      ],
+      "sh": [
+        "bin/sh"
+      ],
+      "curl": [
+        "bin/curl"
+      ]
+    }
+  },
+  {
+    "key": "5d802f3b46a29894",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/13.0-512fe637/initrd",
+    "labels": [
+      "CAINE"
+    ],
+    "menus": [
+      "utils-efi.ipxe",
+      "utils-pcbios-64.ipxe"
+    ],
+    "source_sha256": "8db12d072b764c3a91bf25affc0463fd70c763e6a8e536d3581f313f999ee6ed",
+    "compression": "zstd",
+    "mount_function": "do_urlmount",
+    "fix_sha256": "b17841dd3eb4955291f387a33054bc01a78ef87706b72dbcf9a58f41d1ae2047",
+    "patcher_sha256": "97e631a24cd6915705268526b341bdc36ff9be6c651bafc6add27e7674aa27cf",
+    "initrd_sha256": "7e894530b7c31fa0af247b68a1d3559cae02f909a2fa2f44e8d0852398708296",
+    "initrd_bytes": 108441815,
+    "records": 3848,
+    "unchanged_records": 3847,
+    "casper_original_sha256": "e4655c495745a06aa60668588a1e85ec970e3cc1fb05a13e7cc7d77c83b567a8",
+    "casper_fixed_sha256": "9933a98522c760cca2e406f3ece070fabb4dec0fdbc7048b66b8b33b1fa16ea4",
+    "command_paths": {
+      "awk": [
+        "usr/bin/awk"
+      ],
+      "tail": [
+        "usr/bin/tail"
+      ],
+      "wc": [
+        "usr/bin/wc"
+      ],
+      "tr": [
+        "usr/bin/tr"
+      ],
+      "mount": [
+        "usr/bin/mount"
+      ],
+      "mkdir": [
+        "usr/bin/mkdir"
+      ],
+      "umount": [
+        "usr/bin/umount"
+      ],
+      "rm": [
+        "usr/bin/rm"
+      ],
+      "sh": [
+        "usr/bin/sh"
+      ],
+      "curl": [
+        "usr/bin/curl"
+      ]
+    }
+  }
+]

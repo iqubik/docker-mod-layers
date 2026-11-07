@@ -1,0 +1,5 @@
+{
+  "date": "07.11.2026",
+  "image": "debian@sha256:abd67ffcfa541b485a3dff59865ab629aa048a6c613e639d36e7456b0b229241",
+  "packages": "gzip\t1.12-1\npython3\t3.11.2-1+b1\nxz-utils\t5.4.1-1+deb12u2\nzstd\t1.5.4+dfsg2-5\n"
+}

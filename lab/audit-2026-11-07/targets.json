@@ -1,0 +1,475 @@
+[
+  {
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/8.1-c2287989/initrd",
+    "menus": [
+      "live-backbox.ipxe"
+    ],
+    "labels": [
+      "BackBox 8.1"
+    ]
+  },
+  {
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/7.0.0-b10d29eb/initrd",
+    "menus": [
+      "live-bodhi.ipxe"
+    ],
+    "labels": [
+      "Bodhi 7.0.0 apppack"
+    ]
+  },
+  {
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/7.0.0-0b77b753/initrd",
+    "menus": [
+      "live-bodhi.ipxe"
+    ],
+    "labels": [
+      "Bodhi 7.0.0 standard"
+    ]
+  },
+  {
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/6-3e90a5ea/initrd",
+    "menus": [
+      "live-elementary.ipxe"
+    ],
+    "labels": [
+      "elementary OS 6"
+    ]
+  },
+  {
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/7-c98a385c/initrd",
+    "menus": [
+      "live-elementary.ipxe"
+    ],
+    "labels": [
+      "elementary OS 7"
+    ]
+  },
+  {
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/6.2-2a23039c/initrd",
+    "menus": [
+      "live-kodachi.ipxe"
+    ],
+    "labels": [
+      "Kodachi 6"
+    ]
+  },
+  {
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/7.6-5b1ead62/initrd",
+    "menus": [
+      "live-kodachi.ipxe"
+    ],
+    "labels": [
+      "Kodachi 7"
+    ]
+  },
+  {
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/8.2-625e11fa/initrd",
+    "menus": [
+      "live-kodachi.ipxe"
+    ],
+    "labels": [
+      "Kodachi 8"
+    ]
+  },
+  {
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/5.8-75cb937c/initrd",
+    "menus": [
+      "live-lite.ipxe"
+    ],
+    "labels": [
+      "6"
+    ]
+  },
+  {
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/18.04.3-83291c4b/initrd",
+    "menus": [
+      "live-lxle.ipxe"
+    ],
+    "labels": [
+      "LXLE current"
+    ]
+  },
+  {
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/20.3-8b9bc9d4/initrd",
+    "menus": [
+      "live-mint.ipxe"
+    ],
+    "labels": [
+      "Mint 20.3 Cinnamon"
+    ]
+  },
+  {
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/20.3-1308999e/initrd",
+    "menus": [
+      "live-mint.ipxe"
+    ],
+    "labels": [
+      "Mint 20.3 Mate"
+    ]
+  },
+  {
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/20.3-68ef39b2/initrd",
+    "menus": [
+      "live-mint.ipxe"
+    ],
+    "labels": [
+      "Mint 20.3 Xfce"
+    ]
+  },
+  {
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/21-eec307d9/initrd",
+    "menus": [
+      "live-mint.ipxe"
+    ],
+    "labels": [
+      "Mint 21 Cinnamon"
+    ]
+  },
+  {
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/21-cab2fe58/initrd",
+    "menus": [
+      "live-mint.ipxe"
+    ],
+    "labels": [
+      "Mint 21 Mate"
+    ]
+  },
+  {
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/21-661c5b6f/initrd",
+    "menus": [
+      "live-mint.ipxe"
+    ],
+    "labels": [
+      "Mint 21 Xfce"
+    ]
+  },
+  {
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/22-2b593d38/initrd",
+    "menus": [
+      "live-mint.ipxe"
+    ],
+    "labels": [
+      "Mint 22 Cinnamon"
+    ]
+  },
+  {
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/22-487af4d4/initrd",
+    "menus": [
+      "live-mint.ipxe"
+    ],
+    "labels": [
+      "Mint 22 Mate"
+    ]
+  },
+  {
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/22-8770cb66/initrd",
+    "menus": [
+      "live-mint.ipxe"
+    ],
+    "labels": [
+      "Mint 22 Xfce"
+    ]
+  },
+  {
+    "url": "https://github.com/netbootxyz/debian-squash/releases/download/6-1834227b/initrd",
+    "menus": [
+      "live-mint.ipxe"
+    ],
+    "labels": [
+      "mint-lmde-cinnamon-squash"
+    ]
+  },
+  {
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/20260604-1324-88395a11/initrd.lz",
+    "menus": [
+      "live-neon.ipxe"
+    ],
+    "labels": [
+      "KDE Neon User"
+    ],
+    "menu_url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/20260604-1324-88395a11/initrd"
+  },
+  {
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/2022.02.28-e364d0a5/initrd",
+    "menus": [
+      "live-nitrux.ipxe"
+    ],
+    "labels": [
+      "Nitrux 2022.02.28"
+    ]
+  },
+  {
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/5-66b7e861/initrd",
+    "menus": [
+      "live-popos.ipxe"
+    ],
+    "labels": [
+      "Pop 20.04 Intel-Amd"
+    ]
+  },
+  {
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/5-6efd1d75/initrd",
+    "menus": [
+      "live-popos.ipxe"
+    ],
+    "labels": [
+      "Pop 20.04 Nvidia"
+    ]
+  },
+  {
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/21-23d162dc/initrd",
+    "menus": [
+      "live-popos.ipxe"
+    ],
+    "labels": [
+      "Pop 22.04 Intel-Amd"
+    ]
+  },
+  {
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/1.2-e7db33e3/initrd",
+    "menus": [
+      "live-regolith.ipxe"
+    ],
+    "labels": [
+      "Regolith Current"
+    ]
+  },
+  {
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/20.04.6-67d49334/initrd",
+    "menus": [
+      "live-ubuntu.ipxe"
+    ],
+    "labels": [
+      "Ubuntu 20.04 Budgie"
+    ]
+  },
+  {
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/20.04.6-b70db93f/initrd",
+    "menus": [
+      "live-ubuntu.ipxe"
+    ],
+    "labels": [
+      "Ubuntu 20.04 Kde"
+    ]
+  },
+  {
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/20.04.5-d8b36f04/initrd",
+    "menus": [
+      "live-ubuntu.ipxe"
+    ],
+    "labels": [
+      "Ubuntu 20.04 Lxqt"
+    ]
+  },
+  {
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/20.04.6-6bb01f2e/initrd",
+    "menus": [
+      "live-ubuntu.ipxe"
+    ],
+    "labels": [
+      "Ubuntu 20.04 Mate"
+    ]
+  },
+  {
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/20.04.6-09e46288/initrd",
+    "menus": [
+      "live-ubuntu.ipxe"
+    ],
+    "labels": [
+      "Ubuntu 20.04 Xfce"
+    ]
+  },
+  {
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/20.04.6-d37bfb5f/initrd",
+    "menus": [
+      "live-ubuntu.ipxe"
+    ],
+    "labels": [
+      "Ubuntu 20.04 Gnome"
+    ]
+  },
+  {
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/20.04.6-3bddfc62/initrd",
+    "menus": [
+      "live-ubuntu.ipxe"
+    ],
+    "labels": [
+      "Ubuntu 20.04 Kylin"
+    ]
+  },
+  {
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/22.04.5-6741cfe6/initrd",
+    "menus": [
+      "live-ubuntu.ipxe"
+    ],
+    "labels": [
+      "Ubuntu 22.04 Budgie"
+    ]
+  },
+  {
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/22.04.5-15476290/initrd",
+    "menus": [
+      "live-ubuntu.ipxe"
+    ],
+    "labels": [
+      "Ubuntu 22.04 Kde"
+    ]
+  },
+  {
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/22.04.5-898ace36/initrd",
+    "menus": [
+      "live-ubuntu.ipxe"
+    ],
+    "labels": [
+      "Ubuntu 22.04 Lxqt"
+    ]
+  },
+  {
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/22.04.5-c6e8816b/initrd",
+    "menus": [
+      "live-ubuntu.ipxe"
+    ],
+    "labels": [
+      "Ubuntu 22.04 Mate"
+    ]
+  },
+  {
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/22.04.5-c2dcb4c5/initrd",
+    "menus": [
+      "live-ubuntu.ipxe"
+    ],
+    "labels": [
+      "Ubuntu 22.04 Xfce"
+    ]
+  },
+  {
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/22.04.5-206d4f50/initrd",
+    "menus": [
+      "live-ubuntu.ipxe"
+    ],
+    "labels": [
+      "Ubuntu 22.04 Gnome"
+    ]
+  },
+  {
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/22.04.5-ea089ee1/initrd",
+    "menus": [
+      "live-ubuntu.ipxe"
+    ],
+    "labels": [
+      "Ubuntu 22.04 Kylin"
+    ]
+  },
+  {
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/24.04.4-88542178/initrd",
+    "menus": [
+      "live-ubuntu.ipxe"
+    ],
+    "labels": [
+      "ubuntu-24.04-default-squash"
+    ]
+  },
+  {
+    "url": "https://github.com/netbootxyz/debian-squash/releases/download/bullseye-f7a68a8e/initrd",
+    "menus": [
+      "live-voyager.ipxe"
+    ],
+    "labels": [
+      "Voyager Live bullseye"
+    ]
+  },
+  {
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/focal-594b12a7/initrd",
+    "menus": [
+      "live-voyager.ipxe"
+    ],
+    "labels": [
+      "Voyager Live focal"
+    ]
+  },
+  {
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/jammy-0d0397c9/initrd",
+    "menus": [
+      "live-voyager.ipxe"
+    ],
+    "labels": [
+      "Voyager Live jammy"
+    ]
+  },
+  {
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/18.1-13b843b3/initrd",
+    "menus": [
+      "live-zorin.ipxe"
+    ],
+    "labels": [
+      "Zorin 18.1 Core"
+    ]
+  },
+  {
+    "url": "https://github.com/netbootxyz/asset-mirror/releases/download/2.6.1-123ed276/initrd",
+    "menus": [
+      "rescuezilla.ipxe"
+    ],
+    "labels": [
+      "Rescuezilla 2.6.1"
+    ]
+  },
+  {
+    "url": "https://github.com/netbootxyz/asset-mirror/releases/download/0.0.5-72e9df9f/initrd",
+    "menus": [
+      "ubuntu-spins.ipxe"
+    ],
+    "labels": [
+      "Ubuntu Spins 0.0.5"
+    ]
+  },
+  {
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/current-e035b00c/initrd",
+    "menus": [
+      "utils-efi.ipxe",
+      "utils-pcbios-64.ipxe"
+    ],
+    "labels": [
+      "Boot Repair CD"
+    ]
+  },
+  {
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/13.0-512fe637/initrd",
+    "menus": [
+      "utils-efi.ipxe",
+      "utils-pcbios-64.ipxe"
+    ],
+    "labels": [
+      "CAINE"
+    ]
+  },
+  {
+    "url": "https://github.com/netbootxyz/asset-mirror/releases/download/4.0.0-67795393/initrd",
+    "menus": [
+      "utils-efi.ipxe",
+      "utils-pcbios-64.ipxe"
+    ],
+    "labels": [
+      "RedoRescue"
+    ]
+  },
+  {
+    "url": "https://github.com/netbootxyz/debian-squash/releases/download/0.72-beta8-0a34f075/initrd",
+    "menus": [
+      "utils-efi.ipxe",
+      "utils-pcbios-64.ipxe"
+    ],
+    "labels": [
+      "Rescatux"
+    ]
+  },
+  {
+    "url": "https://github.com/netbootxyz/asset-mirror/releases/download/4.26.1-f22abf78/initrd",
+    "menus": [
+      "utils-pcbios-64.ipxe"
+    ],
+    "labels": [
+      "Breakin"
+    ]
+  }
+]

@@ -1,0 +1,278 @@
+[
+  {
+    "key": "4f6b87dd91f2d44d",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/8.1-c2287989/vmlinuz",
+    "sha256": "29c83218b41ea01516bc13b0c32a87fd9fb6351a2d016b26b3a341adaab6e083",
+    "bytes": 11619432
+  },
+  {
+    "key": "d49181596a80188d",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/7.0.0-b10d29eb/vmlinuz",
+    "sha256": "eb4bbd84f1ba7a5911696f38bff95833b5b58fde4be1c09abb730f7e0ccca7ef",
+    "bytes": 13754632
+  },
+  {
+    "key": "3c91e687330d96c7",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/7.0.0-0b77b753/vmlinuz",
+    "sha256": "7902cb88b047f80ec32325e9061461b932a3bb9a124f680f52aee6c03f7cb9af",
+    "bytes": 13770312
+  },
+  {
+    "key": "d829ee7330a91be3",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/6-3e90a5ea/vmlinuz",
+    "sha256": "a8f3f6179f3f94e2a03fbf7d07b3a43f83573e6adb2727794ed185b27e0884dc",
+    "bytes": 10125664
+  },
+  {
+    "key": "014f941a1276f1aa",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/7-c98a385c/vmlinuz",
+    "sha256": "87516a43e7e13a31a9107cb33eee7be8a50fa32c00ef28718b79d84791d8f0b2",
+    "bytes": 11550848
+  },
+  {
+    "key": "b18f90e77fe6d948",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/6.2-2a23039c/vmlinuz",
+    "sha256": "1e38117d79c8897df2794afc9d03cfd3fc1221ada02369c4d6e39b03226cd6e1",
+    "bytes": 8707832
+  },
+  {
+    "key": "0ba50ba16debeaa0",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/7.6-5b1ead62/vmlinuz",
+    "sha256": "ffb1190259322ee7ce3dfb08cfe0985b9f73b5059531e8930cd1dd82857eebd5",
+    "bytes": 13726336
+  },
+  {
+    "key": "eaba1ca1266f79ce",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/8.2-625e11fa/vmlinuz",
+    "sha256": "15e184dbc00cf60c48db644809d84dc35c0af25e1cb4b853b62a7f29c602f11f",
+    "bytes": 14329664
+  },
+  {
+    "key": "d06c0cdb14d605c3",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/5.8-75cb937c/vmlinuz",
+    "sha256": "18de1abf8cc87b9de2e470702bd1008df186ef0e0de4cf24c52c4909f80cd541",
+    "bytes": 13656320
+  },
+  {
+    "key": "004f9fb219db5951",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/18.04.3-83291c4b/vmlinuz",
+    "sha256": "cf3ba53d136a900b186a3fee738201de332a2fdde67fd62e3219d4c232349012",
+    "bytes": 8330904
+  },
+  {
+    "key": "42f2d451bdde2a8e",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/20.3-8b9bc9d4/vmlinuz",
+    "sha256": "5c6120cddb77ba236333081e69ac4f790d6983a899047df0e728bf1ab2b84afc",
+    "bytes": 11784448
+  },
+  {
+    "key": "065861511001eb10",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/20.3-1308999e/vmlinuz",
+    "sha256": "5c6120cddb77ba236333081e69ac4f790d6983a899047df0e728bf1ab2b84afc",
+    "bytes": 11784448
+  },
+  {
+    "key": "41cf07f65a28b899",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/20.3-68ef39b2/vmlinuz",
+    "sha256": "5c6120cddb77ba236333081e69ac4f790d6983a899047df0e728bf1ab2b84afc",
+    "bytes": 11784448
+  },
+  {
+    "key": "403e14b1b7e05abd",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/21-eec307d9/vmlinuz",
+    "sha256": "7a23ebef3fee686e7173859e2ff6deab1d93ea4c8f81a752caa8896e94f9ff7e",
+    "bytes": 11086240
+  },
+  {
+    "key": "aa1a08bb16a4e874",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/21-cab2fe58/vmlinuz",
+    "sha256": "7a23ebef3fee686e7173859e2ff6deab1d93ea4c8f81a752caa8896e94f9ff7e",
+    "bytes": 11086240
+  },
+  {
+    "key": "e203ede256d1d8f4",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/21-661c5b6f/vmlinuz",
+    "sha256": "7a23ebef3fee686e7173859e2ff6deab1d93ea4c8f81a752caa8896e94f9ff7e",
+    "bytes": 11086240
+  },
+  {
+    "key": "12b35d4ddd23062e",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/22-2b593d38/vmlinuz",
+    "sha256": "e3264e69d6459f6c4e96a61f1c4f43aa47b9d54441b3387e449ea4478ee0470d",
+    "bytes": 14944648
+  },
+  {
+    "key": "2466c26b24b281d5",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/22-487af4d4/vmlinuz",
+    "sha256": "e3264e69d6459f6c4e96a61f1c4f43aa47b9d54441b3387e449ea4478ee0470d",
+    "bytes": 14944648
+  },
+  {
+    "key": "d3925591cdf428e6",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/22-8770cb66/vmlinuz",
+    "sha256": "e3264e69d6459f6c4e96a61f1c4f43aa47b9d54441b3387e449ea4478ee0470d",
+    "bytes": 14944648
+  },
+  {
+    "key": "61812e107ad3cdf3",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/20260604-1324-88395a11/vmlinuz",
+    "sha256": "8438f7568ffd15cac15838187e65ff8864fe44461b48fd779dce2c42a88666c5",
+    "bytes": 16746568
+  },
+  {
+    "key": "63ef8c6e1147ce47",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/2022.02.28-e364d0a5/vmlinuz",
+    "sha256": "2bd591b5070295e8308eba94bb7dc9965246aadde7321bafea1767fada64a6dd",
+    "bytes": 8598560
+  },
+  {
+    "key": "ee5f82f39da15325",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/5-66b7e861/vmlinuz",
+    "sha256": "5f7caa3d532eda0c579afd950ff4fec1bc7dedd239e9670cadb429eec42b377e",
+    "bytes": 11656064
+  },
+  {
+    "key": "787ffafa8bfa192d",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/5-6efd1d75/vmlinuz",
+    "sha256": "5f7caa3d532eda0c579afd950ff4fec1bc7dedd239e9670cadb429eec42b377e",
+    "bytes": 11656064
+  },
+  {
+    "key": "af49697a597c519a",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/21-23d162dc/vmlinuz",
+    "sha256": "dd8dd5e2d659f95861deb06a0e488679581a87d2ce3f6ef0eb584f437f576a6e",
+    "bytes": 12165344
+  },
+  {
+    "key": "1559da8f2c1f5953",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/1.2-e7db33e3/vmlinuz",
+    "sha256": "cb607d27e5d01e61f6a61a710baedf3b255e6f29a2dade0d72c984b8a44119b5",
+    "bytes": 8703736
+  },
+  {
+    "key": "e0bf88a29ddc61ad",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/20.04.6-67d49334/vmlinuz",
+    "sha256": "edcc386654d67440296ddba18d7dfbb89e21b04072092a278a5febc99b622a0b",
+    "bytes": 11458952
+  },
+  {
+    "key": "b2013b52accddd3f",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/20.04.6-b70db93f/vmlinuz",
+    "sha256": "edcc386654d67440296ddba18d7dfbb89e21b04072092a278a5febc99b622a0b",
+    "bytes": 11458952
+  },
+  {
+    "key": "1c7b10672637ae63",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/20.04.5-d8b36f04/vmlinuz",
+    "sha256": "8cecc7f0f135561881f6fd17a68a1c26a8db0019b4e63aceb8d1b1efd77a1b0f",
+    "bytes": 11431744
+  },
+  {
+    "key": "73a398361861f412",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/20.04.6-6bb01f2e/vmlinuz",
+    "sha256": "edcc386654d67440296ddba18d7dfbb89e21b04072092a278a5febc99b622a0b",
+    "bytes": 11458952
+  },
+  {
+    "key": "5ee7570c4b694a99",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/20.04.6-09e46288/vmlinuz",
+    "sha256": "edcc386654d67440296ddba18d7dfbb89e21b04072092a278a5febc99b622a0b",
+    "bytes": 11458952
+  },
+  {
+    "key": "e62005a25b134133",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/20.04.6-d37bfb5f/vmlinuz",
+    "sha256": "edcc386654d67440296ddba18d7dfbb89e21b04072092a278a5febc99b622a0b",
+    "bytes": 11458952
+  },
+  {
+    "key": "0289676e12b0386b",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/20.04.6-3bddfc62/vmlinuz",
+    "sha256": "edcc386654d67440296ddba18d7dfbb89e21b04072092a278a5febc99b622a0b",
+    "bytes": 11458952
+  },
+  {
+    "key": "61606123276f8679",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/22.04.5-6741cfe6/vmlinuz",
+    "sha256": "15909fb75cb650ff50ca1a5532e043a0a4add3e721f92592eaf9b1f764dd4bf7",
+    "bytes": 14928264
+  },
+  {
+    "key": "316a7475d0ee7c7f",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/22.04.5-15476290/vmlinuz",
+    "sha256": "15909fb75cb650ff50ca1a5532e043a0a4add3e721f92592eaf9b1f764dd4bf7",
+    "bytes": 14928264
+  },
+  {
+    "key": "288153b507d1ab18",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/22.04.5-898ace36/vmlinuz",
+    "sha256": "15909fb75cb650ff50ca1a5532e043a0a4add3e721f92592eaf9b1f764dd4bf7",
+    "bytes": 14928264
+  },
+  {
+    "key": "ef7a950ea4b75278",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/22.04.5-c6e8816b/vmlinuz",
+    "sha256": "15909fb75cb650ff50ca1a5532e043a0a4add3e721f92592eaf9b1f764dd4bf7",
+    "bytes": 14928264
+  },
+  {
+    "key": "a91d361ff0f8901f",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/22.04.5-c2dcb4c5/vmlinuz",
+    "sha256": "15909fb75cb650ff50ca1a5532e043a0a4add3e721f92592eaf9b1f764dd4bf7",
+    "bytes": 14928264
+  },
+  {
+    "key": "a1b2b0b49f4bd7ed",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/22.04.5-206d4f50/vmlinuz",
+    "sha256": "15909fb75cb650ff50ca1a5532e043a0a4add3e721f92592eaf9b1f764dd4bf7",
+    "bytes": 14928264
+  },
+  {
+    "key": "6b430fb6fcb26cb3",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/22.04.5-ea089ee1/vmlinuz",
+    "sha256": "15909fb75cb650ff50ca1a5532e043a0a4add3e721f92592eaf9b1f764dd4bf7",
+    "bytes": 14928264
+  },
+  {
+    "key": "e3cb0e4171e54d9c",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/24.04.4-88542178/vmlinuz",
+    "sha256": "d3f1cc6693d93fcf6663cd1e04d31031f41e8abd0c14b0ca953ef524a62e4489",
+    "bytes": 16738376
+  },
+  {
+    "key": "9dfbf8737a32bc0b",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/focal-594b12a7/vmlinuz",
+    "sha256": "dac0de38cc92570aea44cc287d0a525ad9fa7b6aa05c64cc021aac7f6f8b051d",
+    "bytes": 11657976
+  },
+  {
+    "key": "b2f825bf60d5ed08",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/jammy-0d0397c9/vmlinuz",
+    "sha256": "f429529f3a54a26a737f8ff8d4087702e88218fe906da91fdc80c76a225ae31b",
+    "bytes": 11073600
+  },
+  {
+    "key": "7359b7ea711a8edc",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/18.1-13b843b3/vmlinuz",
+    "sha256": "68f243c27a934bad9f58ccb44fc7b7ef1c34a97945cc59e4edafe2ad85420d0c",
+    "bytes": 16734280
+  },
+  {
+    "key": "08803c73f16d110c",
+    "url": "https://github.com/netbootxyz/asset-mirror/releases/download/2.6.1-123ed276/vmlinuz",
+    "sha256": "cefab40b1af8c7a139e148ac46da3cc49074f27570d72fb678c59af3a5c6d331",
+    "bytes": 11706536
+  },
+  {
+    "key": "5ff0bd4442bcb38a",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/current-e035b00c/vmlinuz",
+    "sha256": "35730c1e1f765b1a4fd473287d08e002a26b9af8401e078a9c25c30bb8629ccb",
+    "bytes": 7814808
+  },
+  {
+    "key": "5d802f3b46a29894",
+    "url": "https://github.com/netbootxyz/ubuntu-squash/releases/download/13.0-512fe637/vmlinuz",
+    "sha256": "4f45b42779b0a61a8a6c188ecac35c735f6b3c54bf336cae22b70795019439c9",
+    "bytes": 11559080
+  }
+]
