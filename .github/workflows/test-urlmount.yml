@@ -1,0 +1,36 @@
+name: Test casper URL mounting
+
+on:
+  pull_request:
+    paths:
+      - root/patch
+      - tests/**
+      - .github/workflows/test-urlmount.yml
+  push:
+    branches:
+      - fix/casper-urlmount-size
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        ubuntu: ['20.04', '22.04', '24.04']
+    container: ubuntu:${{ matrix.ubuntu }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install test tools and extract pristine casper
+        run: |
+          apt-get update -qq
+          DEBIAN_FRONTEND=noninteractive apt-get install -y -qq python3 curl patch busybox
+          mkdir /tmp/casper-source
+          cd /tmp/casper-source
+          apt-get download casper
+          dpkg-deb -x casper*.deb unpacked
+      - name: Apply patch and test dash / BusyBox ash with real curl
+        env:
+          CASPER_SOURCE: /tmp/casper-source/unpacked/usr/share/initramfs-tools/scripts/casper
+        run: python3 tests/test_casper_urlmount.py
