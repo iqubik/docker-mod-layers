@@ -1,18 +1,16 @@
---- casper      2020-04-08 21:24:58.000000000 +0000
-+++ casper.new  2020-04-23 17:13:23.139096816 +0000
-@@ -46,7 +46,7 @@ parse_cmdline() {
-                     STATICIP="frommedia"
+--- casper
++++ casper.new
+@@ -47,5 +47,5 @@
                  fi
                  export STATICIP ;;
 -            url=*.iso)
 +            url=*)
                  export NETBOOT=url
                  export URL="${x#url=}" ;;
-             uuid=*)
-@@ -255,22 +255,16 @@ do_nfsmount() {
-
+@@ -255,22 +255,51 @@
+ 
  do_urlmount() {
-     rc=1
+-    rc=1
 -    modprobe "${MP_QUIET}" isofs
 -
 -    [ "$quiet" != "y" ] && log_begin_msg "Trying to download and mount ${URL}"
@@ -27,16 +25,55 @@
 -                umount $mountpoint
 -            fi
 -        fi
-+    mkdir -p ${mountpoint}
-+    mount -t tmpfs -o size=`/bin/curl -sI ${URL} | sed -ne '/Content-Length/{s/.*: //;p}'` tmpfs ${mountpoint}
-+    mkdir -p ${mountpoint}/casper
-+    if /bin/curl -L ${URL} -o ${mountpoint}/casper/root.squashfs; then rc=0; fi
-+    if [ ! -z "$(/bin/curl -sI "${URL}".part2 | grep "200 OK\|302 Found" || :)" ]; then
-+        if /bin/curl -L ${URL}.part2 -o ->> ${mountpoint}/casper/root.squashfs; then rc=0; fi
-+    fi
-+    if [ ! -z "$(/bin/curl -sI "${URL}".part3 | grep "200 OK\|302 Found" || :)" ]; then
-+        if /bin/curl -L ${URL}.part3 -o ->> ${mountpoint}/casper/root.squashfs; then rc=0; fi
-     fi
+-    fi
 -
-     return ${rc}
+-    return ${rc}
++    local url headers status size total image actual
++    total=0
++    set --
++    # shortcut: keep the three-part limit until larger multipart support is integrated.
++    for url in "${URL}" "${URL}.part2" "${URL}.part3"; do
++        headers=$(/bin/curl -sSLI --connect-timeout 10 --max-time 45 \
++            -w '\n%{http_code}' "${url}") || return 1
++        status=$(printf '%s\n' "${headers}" | tail -n 1)
++        if [ "${status}" = 404 ] && [ "${url}" != "${URL}" ]; then
++            break
++        fi
++        if [ "${status}" != 200 ]; then
++            echo "casper: HTTP ${status} while checking ${url}" >&2
++            return 1
++        fi
++        size=$(printf '%s\n' "${headers}" | awk '
++            /^HTTP\// { n="" }
++            tolower($1)=="content-length:" { gsub("\r", "", $2); n=$2 }
++            END { print n }')
++        case "${size}" in
++            ''|*[!0-9]*) echo "casper: invalid Content-Length for ${url}" >&2; return 1 ;;
++        esac
++        [ "${size}" -gt 0 ] || return 1
++        total=$((total + size))
++        set -- "$@" "${url}"
++    done
++
++    mkdir -p "${mountpoint}" || return 1
++    mount -t tmpfs -o "size=${total}" tmpfs "${mountpoint}" || return 1
++    mkdir -p "${mountpoint}/casper" || { umount "${mountpoint}"; return 1; }
++    image="${mountpoint}/casper/root.squashfs"
++    for url do
++        # Retrying an append can duplicate bytes already written by a failed GET.
++        if ! /bin/curl -fL --connect-timeout 15 "${url}" >> "${image}"; then
++            rm -f "${image}"
++            umount "${mountpoint}"
++            return 1
++        fi
++    done
++    actual=$(wc -c < "${image}" | tr -d '[:space:]')
++    if [ "${actual}" != "${total}" ]; then
++        echo "casper: incomplete image: expected ${total}, received ${actual}" >&2
++        rm -f "${image}"
++        umount "${mountpoint}"
++        return 1
++    fi
++    return 0
  }
+ 
